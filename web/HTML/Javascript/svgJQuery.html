@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var pathName = window.document.location.pathname;
+	var projectName = pathName
+			.substring(1, pathName.substr(1).indexOf('/') + 1);
+	document
+			.write("<link rel='stylesheet' href='/"+projectName+"/CSS/common.css'></sc"+"ript>");
+	document
+			.write("<script language=javascript src='/"+projectName+"/JS/run_prettify.js'></sc"+"ript>");
+</script>
+</head>
+<body>
+<h1>Add svg element using jQuery</h1><xmp>
+It is not available to add <path> or <g> and some other tag in the <svg> using jQuery now. But add the whole <svg> tag based on jQuery</xmp>
+<h2>HTML</h2>
+<pre class="prettyprint"><xmp><body>
+	<svg id="fullExtentSvg">
+		<g id="fullExtentSvgD" stroke-width="3" fill="rgb(255, 255, 255)"
+			stroke="rgba(255,255,255,1)" stroke-linecap="round">
+			<path d="M3,3 l9,0"></path>
+			<path d="M3,3 l11,11"></path>
+			<path d="M3,3 l0,9"></path>
+			
+			<path d="M37,3 l-9,0"></path>
+			<path d="M37,3 l-11,11"></path>
+			<path d="M37,3 l0,9"></path>
+			
+			<path d="M3,37 l9,0"></path>
+			<path d="M3,37 l11,-11"></path>
+			<path d="M3,37 l0,-9"></path>
+			
+			<path d="M37,37 l-9,0"></path>
+			<path d="M37,37 l-11,-11"></path>
+			<path d="M37,37 l0,-9"></path>
+		</g>
+	</svg>
+</body></xmp></pre>
+<h2>js Code</h2>
+<pre class="prettyprint"><xmp>var fullExtentStr = "<svg id='fullExtentSvg'><g id='fullExtentSvgD' stroke-width='3' fill='rgb(255, 255, 255)' stroke='rgba(255,255,255,1)' stroke-linecap='round'><path d='M3,3 l9,0'></path><path d='M3,3 l11,11'></path><path d='M3,3 l0,9'></path><path d='M37,3 l-9,0'></path><path d='M37,3 l-11,11'></path><path d='M37,3 l0,9'></path><path d='M3,37 l9,0'></path><path d='M3,37 l11,-11'></path><path d='M3,37 l0,-9'></path><path d='M37,37 l-9,0'></path><path d='M37,37 l-11,-11'></path><path d='M37,37 l0,-9'></path></g></svg>";
+var noFullExtentStr = "<svg id='fullExtentSvg'><g id='fullExtentSvgD' stroke-width='3' fill='rgb(255, 255, 255)'stroke='rgba(255,255,255,1)' stroke-linecap='round'><path d='M14,14 l-9,0'></path><path d='M14,14 l-11,-11'></path><path d='M14,14 l0,-9'></path><path d='M26,14 l9,0'></path><path d='M26,14 l11,-11'></path><path d='M26,14 l0,-9'></path><path d='M14,26 l-9,0'></path><path d='M14,26 l-11,11'></path><path d='M14,26 l0,9'></path><path d='M26,26 l9,0'></path><path d='M26,26 l11,11'></path><path d='M26,26 l0,9'></path></g></svg>";
+$(document).ready(function() {
+	$("#body").click(function() {
+		$("#fullExtent").empty();
+		$("#fullExtent").append(fullExtentStr);
+		if ($("#header").css("display") == "none") {
+			$("#header").show();
+			$("#left").show();
+			$("#content").css("top", "150px");
+			$("#content").css("left", "200px");
+		} else {
+			$("#fullExtent").empty();
+			$("#fullExtent").append(noFullExtentStr);
+			$("#header").hide();
+			$("#left").hide();
+			$("#content").css("top", "0px");
+			$("#content").css("left", "0px");
+		}
+	})
+})</xmp></pre>
+</body>
+</html>

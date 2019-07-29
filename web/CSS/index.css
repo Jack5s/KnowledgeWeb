@@ -1,0 +1,306 @@
+@charset "ISO-8859-1";
+
+div {
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+}
+
+.animation {
+    transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+#header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 150px;
+}
+
+#headerListBackground {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: var(--darkBlue);
+}
+
+#headerList {
+    display: flex;
+    position: absolute;
+    left: 200px;
+    right: 200px;
+}
+
+.headerListItem1Text {
+    position: relative;
+    background-color: rvar(--darkBlue);
+    width: 150px;
+    height: 50px;
+    display: block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    font-size: 25;
+    line-height: 50px;
+    height: 50px;
+}
+
+.headerListItem2 {
+    display: none;
+    position: relative;
+    background-color: var(--darkBlue);
+}
+
+.headerListItem2Text {
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    font-size: 25;
+    opacity: 1;
+}
+
+#headerSvg {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#headerSvgCircle {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 150px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+}
+
+#headerClock {
+    position: absolute;
+    top: 0.5px;
+    left: 10.5px;
+    height: 150px;
+    width: 150px;
+    z-index: 99;
+}
+
+#headerClockSvg {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    /* 	height: 150px; */
+    /* 	width: 150px; */
+    color: rgb(255, 255, 255);
+}
+
+#headerDateText {
+    position: absolute;
+    display: block;
+    text-align: center;
+    line-height: 90px;
+    height: 90px;
+    width: 150px;
+}
+
+.headerDateText1 {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.headerDateText2 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#headerTimeText {
+    display: block;
+    text-align: center;
+    line-height: 150px;
+    height: 150px;
+    width: 150px;
+
+    /* 	z-index: 99; */
+}
+
+.headerTimeText1 {
+    opacity: 0;
+    transform: scale(1);
+}
+
+.headerTimeText2 {
+    opacity: 1;
+    transform: scale(1.8);
+}
+
+#headerImg {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    height: 55px;
+    width: 55px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../Image/apple.ico);
+    z-index: 98;
+}
+
+.headerImg1 {
+    opacity: 0;
+    transform: scale(1);
+}
+
+.headerImg2 {
+    opacity: 0.6;
+    transform: scale(2);
+}
+
+#headerSearch {
+    position: absolute;
+    top: 107px;
+    right: 100px;
+}
+
+#headerSearchTextArea {
+    width: 200px;
+    height: 30px;
+    background: white;
+}
+
+#headerSearchList {
+    overflow: auto;
+    width: 300px;
+    position: absolute;
+    height: 400px;
+}
+
+.headerSearchItem {
+    height: 30px;
+    line-height: 30px;
+    background: white;
+}
+
+#left {
+    position: absolute;
+    top: 150px;
+    bottom: 0px;
+    left: 0px;
+    /* 	width: 200px; */
+    background-color: var(--lightBlue);
+}
+
+#leftTitle {
+    top: 0px;
+    height: 50px;
+    width: 200px;
+    background-color: var(--lightBlue);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 50px;
+    font-size: 25;
+}
+
+#leftList {
+    display: block;
+    bottom: 0px;
+}
+
+.leftListItem1 {
+    overflow: auto;
+    width: 200px;
+}
+
+.leftListItem1Text {
+    display: block;
+    position: relative;
+    height: 50px;
+    background-color: var(--lightBlue);
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 50px;
+    font-size: 25;
+}
+
+.leftListItem2Text {
+    display: block;
+    position: relative;
+    /* 	height: 50px; */
+    background-color: var(--lightBlue);
+    padding-left: 20px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 40px;
+    font-size: 25;
+}
+
+.leftListItem3Text {
+    display: block;
+    position: relative;
+    height: 50px;
+    background-color: var(--lightBlue);
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 50px;
+    font-size: 25;
+}
+
+#content {
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#fullExtent {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#fullExtentSvg {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#contentIframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+#test {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1000px;
+    height: 70px;
+    background-color: yellow;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maven</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var projectName = pathName
+            .substring(1, pathName.substr(1).indexOf('/') + 1);
+        document
+            .write("<link rel='stylesheet' href='/" + projectName + "/CSS/common.css'></sc" + "ript>");
+        document
+            .write("<script language=javascript src='/" + projectName + "/JS/run_prettify.js'></sc" + "ript>");
+    </script>
+</head>
+<body>
+<h1>Maven</h1>
+Maven提供了一个引用包的简单办法，通过配置pom.xml中<xmp><dependencies></xmp>标签的属性，可以方便的对引用的包进行管理
+同时，Maven还可以自动将所引用包的依赖的包也一起引用到项目中
+<pre class="prettyprint"><xmp><dependencies>
+    <dependency>
+        <groupId>org.geotools</groupId>
+        <artifactId>gt-geometry</artifactId>
+        <version>18.4</version>
+    </dependency>
+    <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>1.12.1</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.5</version>
+    </dependency>
+</dependencies></xmp></pre></body>
+<pre>Maven会把包自动下载到本地，默认下载路径为"C:\Users\sa\.m2\repository"，可在Maven根目录\conf\setting.xml中更改</pre>
+</html>
