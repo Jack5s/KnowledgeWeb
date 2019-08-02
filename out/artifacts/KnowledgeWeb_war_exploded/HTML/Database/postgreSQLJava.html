@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var projectName = pathName
+            .substring(1, pathName.substr(1).indexOf('/') + 1);
+        document
+            .write("<link rel='stylesheet' href='/" + projectName + "/CSS/common.css'></sc" + "ript>");
+        document
+            .write("<script language=javascript src='/" + projectName + "/JS/run_prettify.js'></sc" + "ript>");
+    </script>
+</head>
+<body>
+<h1>PostgreSQL Connection with Java</h1>
+<h2>Step 1: Import jar package</h2>
+<pre>Download PostgreSQL JDBC driver for java from:
+<a href="https://jdbc.postgresql.org/">https://jdbc.postgresql.org/</a>
+Then you need to change you build path and add the jar package
+</pre>
+<h2>Step 2: Connect</h2>
+<pre>use following code to connect with your database:</pre>
+<pre class="prettyprint">
+<code class="language-java">String url = "jdbc:postgresql://hostName/dataBaseName";
+String userName = "LiJingwei";
+String password = "12345";
+Connection connection = DriverManager.getConnection(url, userName, password);</code>
+</pre>
+</body>
+</html>

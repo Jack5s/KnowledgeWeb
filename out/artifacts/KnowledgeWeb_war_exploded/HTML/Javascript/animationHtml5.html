@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="../CSS/common.css">
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var projectName = pathName
+            .substring(1, pathName.substr(1).indexOf('/') + 1);
+        document
+            .write("<link rel='stylesheet' href='/" + projectName + "/CSS/common.css'></sc" + "ript>");
+        document
+            .write("<script language=javascript src='/" + projectName + "/JS/run_prettify.js'></sc" + "ript>");
+        document
+            .write("<script language=javascript src='/" + projectName + "/JS/jquery-3.3.1.js'></sc" + "ript>");
+    </script>
+    <style type="text/css">
+        #div {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .animation {
+            transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -webkit-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+        }
+
+        .div1 {
+            opacity: 0.3;
+            transform: scale(1);
+        }
+
+        .div2 {
+            opacity: 1;
+            transform: scale(0.5);
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+// 		set initial style
+            $("#div").addClass("div1");
+            $("#div").mouseenter(function () {
+                $(this).removeClass("div1");
+                $(this).addClass("animation");
+                $(this).addClass("div2");
+            });
+            $("#div").mouseleave(function () {
+                $(this).removeClass("div2");
+                $(this).addClass("div1");
+            });
+        });
+    </script>
+</head>
+<body>
+<h1>Use transform Animation with jQuery</h1>
+<pre>It is not allow to use animation() in jQuery to change the value of transform. 
+The solution is to add and remove class of related animation. Also transition(CSS3) must be use in the animation.
+But you must be careful that all the CSS style related to animation shouldn't repeat in CSS.
+So I use .div1 and .div2 to show different CSS</pre>
+<h2>HTML</h2>
+<pre>All you need is a div</pre>
+<pre class="prettyprint"><xmp><div id="div"></div></xmp></pre>
+<h2>CSS</h2>
+<pre>All CSS properties you need to change should be put into a isolated class</pre>
+<pre class="prettyprint">#div {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+.animation {
+	transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+}
+
+.div1 {
+	opacity: 0.3;
+	transform: scale(1);
+}
+
+.div2 {
+	opacity: 1;
+	transform: scale(0.5);
+}</pre>
+<h2>JS</h2>
+<pre class="prettyprint">$(document).ready(function() {
+// 	set initial style
+	$("#div").addClass("div1");
+	$("#div").mouseenter(function() {
+		$(this).removeClass("div1");
+		$(this).addClass("animation");
+		$(this).addClass("div2");
+	});
+	$("#div").mouseleave(function() {
+		$(this).removeClass("div2");
+		$(this).addClass("div1");
+	});
+	});</pre>
+</body>
+</html>

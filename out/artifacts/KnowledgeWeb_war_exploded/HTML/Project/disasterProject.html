@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Insert title here</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var projectName = pathName
+            .substring(1, pathName.substr(1).indexOf('/') + 1);
+        document
+            .write("<link rel='stylesheet' href='/" + projectName + "/CSS/common.css'></sc" + "ript>");
+        document
+            .write("<script language=javascript src='/" + projectName + "/JS/run_prettify.js'></sc" + "ript>");
+        document
+            .write("<script language=javascript src='/" + projectName + "/JS/jquery-3.3.1.js'></sc" + "ript>");
+        document
+            .write("<script language=javascript src='/" + projectName + "/JS/imgLoad.js'></sc" + "ript>");
+    </script>
+</head>
+<body>
+<h1>Disaster Project</h1>
+<h2>Introduction</h2>
+<pre>The Project is to create web-based platform to show the disaster event on the whole earth. The project can be divided into three parts: Data Scraper, Semantic Analysis and Visualization.
+</pre>
+<h2>Data Scraper</h2>
+<pre>Data Scraper part is to obtained disaster data from four web sites (I am required to implement the part): </pre>
+<div>
+		<pre>EMS: <a
+                href="https://emergency.copernicus.eu/mapping/list-of-activations-rapid">https://emergency.copernicus.eu/mapping/list-of-activations-rapid</a>
+		</pre>
+    <img id="emsImg" imgName="EMS" alt="" width="1000px" height="500px" align="middle">
+</div>
+<div>
+		<pre>GDACS: MainPage: <a href="http://www.gdacs.org/">http://www.gdacs.org/</a>Data: <a
+                href="http://www.gdacs.org/datareport/resources/">http://www.gdacs.org/datareport/resources/</a>
+		</pre>
+
+    <img id="gdacsImg" alt="" imgName="GDACS" width="1000px" height="500px" align="middle">
+</div>
+<div>
+		<pre>GDELT: MainPage: <a href="https://www.gdeltproject.org/">https://www.gdeltproject.org/</a>Data: <a
+                href="http://data.gdeltproject.org/gdeltv2/masterfilelist.txt">http://data.gdeltproject.org/gdeltv2/masterfilelist.txt</a>
+		</pre>
+
+    <img id="gdeltImg" imgName="GDELT" alt="" width="1000px" height="500px"
+         align="middle">
+</div>
+<div>
+		<pre>Relief: <a href="https://reliefweb.int/disasters">https://reliefweb.int/disasters</a>
+		</pre>
+    <img id="reliefImg" imgName="Relief" alt="" width="1000px" height="500px" align="middle">
+</div>
+<h2>Semantic Mapping</h2>
+<pre>The part is based on the twitter data. Use semantic analysis to analyze the twitter data. where and what emotions of people to a disaster event.
+	This part now is python-based program and can analyze the emotion is positive or negative</pre>
+<h2>Visualization</h2>
+We plan to use R-shine to implement the web-based software.
+<pre></pre>
+</body>
+<script type="text/javascript">
+    // $(document).ready(function () {
+    //     $("#emsImg").attr("src", "/" + projectName + "/Image/EMS.png");
+    //     $("#gdacsImg").attr("src", "/" + projectName + "/Image/GDACS.png");
+    //     $("#gdeltImg").attr("src", "/" + projectName + "/Image/GDELT.png");
+    //     $("#reliefImg").attr("src", "/" + projectName + "/Image/Relief.png");
+    // });
+</script>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JavascriptMenu/JavascriptMenu.iml" filepath="$PROJECT_DIR$/../JavascriptMenu/JavascriptMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JavascriptTest/JavascriptTest.iml" filepath="$PROJECT_DIR$/../JavascriptTest/JavascriptTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KnowledgeWeb.iml" filepath="$PROJECT_DIR$/KnowledgeWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Scraper/Scraper.iml" filepath="$PROJECT_DIR$/../Scraper/Scraper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ServletSample/ServletSample.iml" filepath="$PROJECT_DIR$/../ServletSample/ServletSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringSample/SpringSample.iml" filepath="$PROJECT_DIR$/../SpringSample/SpringSample.iml" />
+    </modules>
+  </component>
+</project>
