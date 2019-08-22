@@ -5,307 +5,315 @@
       <artifact name="JavascriptMenu:war exploded" />
       <artifact name="JavascriptTest:war exploded" />
       <artifact name="KnowledgeWeb:war exploded" />
-      <artifact name="ServletSample:war exploded" />
-      <artifact name="SpringSample:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6a7af5-0303-4ec6-89c7-800ba6cdf3ab" name="Default Changelist" comment="ok">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavascriptMenu_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavascriptMenu_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavascriptTest_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/KnowledgeWeb_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ServletSample_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SpringSample_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_efficient_java_matrix_library_core_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_core_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_media_jai_core_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jgridshift_jgridshift_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jsr_275_jsr_275_1_0_beta_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_geographiclib_GeographicLib_Java_1_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_0_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_api_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_geometry_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_main_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_metadata_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_opengis_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_referencing_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Scraper_0_0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Image/image.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavascriptTest_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/JavascriptTest_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/CSS/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/CSS/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Data/Li_Poster.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Data/OpenGIS/OpenGIS.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Data/a.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/postgreSQLInjection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/postgreSQLJava.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/sql.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Java/maven.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Java/springBoot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Java/time.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Javascript/animationHtml5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Javascript/svgJQuery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Password/commonPassword.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Project/dataProcessSQLProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Project/disasterProject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Image/EMS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Image/GDACS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Image/GDELT.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Image/Relief.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Image/apple.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Image/springBoot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/clock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/d3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/fullExtent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/headerJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/imgLoad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/left.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/leftJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/mymenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/run_prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/WEB-INF/classes/index.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/SpringSample_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ServletSample/index.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/HTML/Java/springBoot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Image/springBoot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/JS/imgLoad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/JS/mymenu.js" afterDir="false" />
+    <list default="true" id="2a63c8bb-436e-4a99-a5ad-f22dd3c81a06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavascriptTest/JavascriptTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavascriptTest/web/JS/mymenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HibernateSample_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/StrutsSample_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_3_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_agroal_agroal_api_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_agroal_agroal_pool_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_core_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/HTML/Java/Framework/Spring/springBoot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/HTML/Java/Framework/hibernate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/HTML/Java/Framework/struts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/HTML/Java/Thread/storeThread.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/HTML/Java/stringMatch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/HTML/MainPage/mainPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Image/hibernateSetting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/JS/loadJSandCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/JS/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavascriptMenu/JavascriptMenu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavascriptMenu/JavascriptMenu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavascriptMenu/target/JavascriptMenu-1.0/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavascriptMenu_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavascriptMenu_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavascriptMenu_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavascriptTest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavascriptTest_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ServletSample_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ServletSample_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringSample_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringSample_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_efficient_java_matrix_library_core_0_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_core_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_media_jai_core_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jgridshift_jgridshift_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jsr_275_jsr_275_1_0_beta_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_geographiclib_GeographicLib_Java_1_44.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_0_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_0_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_api_18_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_geometry_18_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_main_18_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_metadata_18_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_opengis_18_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_referencing_18_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Scraper_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KnowledgeWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KnowledgeWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavascriptTest_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JavascriptTest_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/CSS/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/CSS/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Data/Li_Poster.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Data/OpenGIS/OpenGIS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/Data/a.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/postgreSQLInjection.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/postgreSQLInjection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/postgreSQLJava.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/postgreSQLJava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/sql.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Database/sql.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Java/maven.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Java/springBoot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Java/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Java/time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Javascript/animationHtml5.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Javascript/animationHtml5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Javascript/svgJQuery.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Javascript/svgJQuery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Password/commonPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Password/commonPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Project/dataProcessSQLProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Project/dataProcessSQLProject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Project/disasterProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/Project/disasterProject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/HTML/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/clock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/d3.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/d3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/fullExtent.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/fullExtent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/headerJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/headerJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/imgLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/imgLoad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/jquery-3.3.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/left.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/left.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/leftJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/leftJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/mymenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/mymenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/JS/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KnowledgeWeb_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/WEB-INF/classes/index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServletSample_war_exploded/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringSample_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/CSS/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/CSS/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Data/Li_Poster.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Data/OpenGIS/OpenGIS.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Data/a.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Database/postgreSQLInjection.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Database/postgreSQLInjection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Database/postgreSQLJava.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Database/postgreSQLJava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Database/sql.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Database/sql.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Java/maven.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Java/Framework/maven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Java/springBoot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Java/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Java/time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Javascript/animationHtml5.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Javascript/animationHtml5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Javascript/svgJQuery.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Javascript/svgJQuery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Password/commonPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Password/commonPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Project/dataProcessSQLProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Project/dataProcessSQLProject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/Project/disasterProject.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/Project/disasterProject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/HTML/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/HTML/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Image/New Microsoft PowerPoint Presentation.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/clock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/headerJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/headerJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/imgLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/imgLoad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/left.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/left.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/leftJSON.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/leftJSON.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/mymenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/mymenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JS/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JS/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
-    <list id="ec569737-21dc-443c-a3b2-c893b2660b2a" name="a" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/../SpringSample/src/SpringSample/target/" />
-    <ignored path="$PROJECT_DIR$/../Scraper/target/" />
     <ignored path="$PROJECT_DIR$/../SpringSample/target/" />
-    <ignored path="$PROJECT_DIR$/../JavascriptMenu/target/" />
-    <ignored path="$PROJECT_DIR$/../JavascriptTest/target/" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-grid.css" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-grid.css.map" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-grid.min.css" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-grid.min.css.map" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-reboot.css" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-reboot.css.map" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-reboot.min.css" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap-reboot.min.css.map" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.bundle.js" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.bundle.js.map" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.bundle.min.js" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.bundle.min.js.map" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap.css" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap.css.map" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.js" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.js.map" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap.min.css" />
-    <ignored path="../JavascriptTest/web/CSS/bootstrap.min.css.map" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.min.js" />
-    <ignored path="../JavascriptTest/web/JS/bootstrap.min.js.map" />
-    <ignored path="../JavascriptTest/web/CSS/cssTest.css" />
-    <ignored path="../JavascriptTest/web/JS/d3.js" />
-    <ignored path="../JavascriptTest/web/JS/d3.min.js" />
-    <ignored path="../JavascriptTest/web/index.jsp" />
-    <ignored path="../JavascriptTest/JavascriptTest.iml" />
-    <ignored path="../JavascriptTest/web/JS/jquery.js" />
-    <ignored path="../JavascriptTest/web/JS/MyJS/mymenu.js" />
-    <ignored path="../JavascriptTest/pom.xml" />
-    <ignored path="../JavascriptTest/web/JS/popper.min.js" />
-    <ignored path="../JavascriptTest/web/JS/run_prettify.js" />
-    <ignored path="../JavascriptTest/web/JS/saveSvgAsPng.js" />
-    <ignored path="../JavascriptTest/web/WEB-INF/web.xml" />
-    <ignored path=".idea/compiler.xml" />
-    <ignored path=".idea/encodings.xml" />
-    <ignored path="Image/image.bmp" />
-    <ignored path="web/JS/imgLoad.js" />
-    <ignored path=".idea/artifacts/JavascriptMenu_war.xml" />
-    <ignored path=".idea/artifacts/JavascriptMenu_war_exploded.xml" />
-    <ignored path=".idea/artifacts/JavascriptTest_war_exploded.xml" />
-    <ignored path=".idea/artifacts/KnowledgeWeb_war_exploded.xml" />
-    <ignored path=".idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-    <ignored path=".idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-    <ignored path=".idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
-    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
-    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" />
-    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" />
-    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" />
-    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" />
-    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" />
-    <ignored path=".idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" />
-    <ignored path=".idea/libraries/Maven__com_googlecode_efficient_java_matrix_library_core_0_26.xml" />
-    <ignored path=".idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-    <ignored path=".idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-    <ignored path=".idea/libraries/Maven__com_vividsolutions_jts_core_1_14_0.xml" />
-    <ignored path=".idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-    <ignored path=".idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
-    <ignored path=".idea/libraries/Maven__javax_media_jai_core_1_1_3.xml" />
-    <ignored path=".idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
-    <ignored path=".idea/libraries/Maven__jgridshift_jgridshift_1_0.xml" />
-    <ignored path=".idea/libraries/Maven__junit_junit_4_12.xml" />
-    <ignored path=".idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" />
-    <ignored path=".idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" />
-    <ignored path=".idea/libraries/Maven__net_java_dev_jsr_275_jsr_275_1_0_beta_2.xml" />
-    <ignored path=".idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-    <ignored path=".idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-    <ignored path=".idea/libraries/Maven__net_sf_geographiclib_GeographicLib_Java_1_44.xml" />
-    <ignored path=".idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
-    <ignored path=".idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" />
-    <ignored path=".idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" />
-    <ignored path=".idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" />
-    <ignored path=".idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" />
-    <ignored path=".idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_0_36.xml" />
-    <ignored path=".idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
-    <ignored path=".idea/libraries/Maven__org_geotools_gt_api_18_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_geotools_gt_geometry_18_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_geotools_gt_main_18_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_geotools_gt_metadata_18_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_geotools_gt_opengis_18_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_geotools_gt_referencing_18_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-    <ignored path=".idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-    <ignored path=".idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" />
-    <ignored path=".idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
-    <ignored path=".idea/libraries/Maven__org_jdom_jdom_1_1_3.xml" />
-    <ignored path=".idea/libraries/Maven__org_jsoup_jsoup_1_12_1.xml" />
-    <ignored path=".idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-    <ignored path=".idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-    <ignored path=".idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-    <ignored path=".idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" />
-    <ignored path=".idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" />
-    <ignored path=".idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
-    <ignored path=".idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
-    <ignored path=".idea/misc.xml" />
-    <ignored path=".idea/modules.xml" />
-    <ignored path="web/JS/mymenu.js" />
-    <ignored path=".idea/libraries/Scraper_0_0_1_SNAPSHOT.xml" />
-    <ignored path=".idea/artifacts/ServletSample_war_exploded.xml" />
-    <ignored path="web/HTML/Java/springBoot.html" />
-    <ignored path="web/Image/springBoot.png" />
-    <ignored path=".idea/artifacts/SpringSample_war_exploded.xml" />
-    <ignored path=".idea/uiDesigner.xml" />
-    <ignored path=".idea/vcs.xml" />
+    <ignored path="$PROJECT_DIR$/../Scraper/target/" />
+    <ignored path="$PROJECT_DIR$/../HibernateSample/target/" />
+    <ignored path="$PROJECT_DIR$/../StrutsSample/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="autoscrollToSource" value="true" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/JS/imgLoad.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JS/leftJSON.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state>
+              <caret column="16" selection-start-column="4" selection-end-column="16" />
+              <folding>
+                <element signature="e#130#241#0" />
+                <element signature="e#132#240#0" />
+                <element signature="e#261#863#0" />
+                <element signature="e#262#365#0" />
+                <element signature="e#367#862#0" />
+                <element signature="e#527#860#0" />
+                <element signature="e#528#695#0" />
+                <element signature="e#697#859#0" />
+                <element signature="e#883#1403#0" />
+                <element signature="e#884#1020#0" />
+                <element signature="e#1022#1402#0" />
+                <element signature="e#1120#1400#0" />
+                <element signature="e#1121#1252#0" />
+                <element signature="e#1254#1399#0" />
+                <element signature="e#1422#1789#0" />
+                <element signature="e#1423#1514#0" />
+                <element signature="e#1516#1648#0" />
+                <element signature="e#1650#1788#0" />
+                <element signature="e#1809#2710#0" />
+                <element signature="e#1815#1974#0" />
+                <element signature="e#1980#2578#0" />
+                <element signature="e#2100#2572#0" />
+                <element signature="e#2114#2294#0" />
+                <element signature="e#2308#2571#0" />
+                <element signature="e#2580#2709#0" />
+                <element signature="e#2731#3059#0" />
+                <element signature="e#2732#2837#0" />
+                <element signature="e#2839#2954#0" />
+                <element signature="e#2956#3058#0" />
+                <element signature="e#3078#5037#0" />
+                <element signature="e#3079#5036#0" />
+                <element signature="e#3183#5034#0" />
+                <element signature="e#3184#3327#0" />
+                <element signature="e#3329#3488#0" />
+                <element signature="e#3490#3677#0" />
+                <element signature="e#3679#3822#0" />
+                <element signature="e#3824#3969#0" />
+                <element signature="e#3971#4114#0" />
+                <element signature="e#4116#4265#0" />
+                <element signature="e#4267#4410#0" />
+                <element signature="e#4412#4549#0" />
+                <element signature="e#4551#4694#0" />
+                <element signature="e#4696#4857#0" />
+                <element signature="e#4859#5033#0" />
+                <element signature="e#5060#5690#0" />
+                <element signature="e#5061#5288#0" />
+                <element signature="e#5154#5286#0" />
+                <element signature="e#5155#5285#0" />
+                <element signature="e#5290#5560#0" />
+                <element signature="e#5395#5558#0" />
+                <element signature="e#5396#5557#0" />
+                <element signature="e#5562#5688#0" />
+                <element signature="e#5788#6483#0" />
+                <element signature="e#5789#6092#0" />
+                <element signature="e#5917#6086#0" />
+                <element signature="e#5918#6085#0" />
+                <element signature="e#6094#6217#0" />
+                <element signature="e#6219#6354#0" />
+                <element signature="e#6356#6482#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JS/left.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/JS/search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="85" selection-start-line="85" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JS/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/JS/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-326">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -315,64 +323,120 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="JavaScript File" />
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="struts_2_1_7" />
+        <option value="Jsp File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>java</find>
-      <find>40</find>
-      <find>div</find>
-      <find>flex</find>
+      <find>prettyprint prettyprinted</find>
+      <find>pre</find>
+      <find>buildSessionFactory</find>
+      <find>buildsession</find>
+      <find>document.write</find>
+      <find>write</find>
+      <find>AB</find>
+      <find>webRoot</find>
+      <find>./</find>
+      <find>..</find>
+      <find>http:/</find>
+      <find>HTML</find>
+      <find>=pattern</find>
+      <find>img</find>
+      <find>headerTimeText1</find>
+      <find>leftListItem</find>
+      <find>excuate</find>
+      <find>execute</find>
+      <find>getText</find>
+      <find>getTextProvider</find>
+      <find>Action</find>
+      <find>selectedItem</find>
+      <find>good</find>
+      <find>long</find>
+      <find>leftItem</find>
+      <find>keywordArray</find>
+      <find>headerSearchTextArea</find>
+      <find>loadLeft</find>
+      <find>dataStrArray</find>
+      <find>sele</find>
     </findStrings>
+    <replaceStrings>
+      <replace>http://</replace>
+      <replace>.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/SpringSample/pom.xml" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/SpringSample/java/controller/Application.java" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/main/java/Application.java" />
-        <option value="$PROJECT_DIR$/web/JS/leftJSON.js" />
-        <option value="$PROJECT_DIR$/web/HTML/Java/SpringBoot.html" />
-        <option value="$PROJECT_DIR$/web/HTML/test.html" />
+        <option value="$PROJECT_DIR$/web/HTML/Javascript/importJS.html" />
+        <option value="$PROJECT_DIR$/web/HTML/Javascript/svgJQuery.html" />
+        <option value="$PROJECT_DIR$/web/HTML/Password/commonPassword.html" />
+        <option value="$PROJECT_DIR$/web/HTML/Project/dataProcessSQLProject.html" />
         <option value="$PROJECT_DIR$/web/HTML/Project/disasterProject.html" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/main/java/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/main/java/controller/Application.java" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/main/java/s/aa.java" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/main/java/aaa.java" />
-        <option value="$PROJECT_DIR$/../SpringSample/src/main/java/controller/aaa.java" />
-        <option value="$PROJECT_DIR$/../ServletSample/src/index.java" />
-        <option value="$PROJECT_DIR$/../JSTest/web/JS/MyJS/menu.js" />
-        <option value="$PROJECT_DIR$/../JSTest/web/JS/MyJS/myMenu.js" />
-        <option value="$PROJECT_DIR$/../SpringSample/pom.xml" />
-        <option value="$PROJECT_DIR$/web/HTML/Java/springBoot.html" />
-        <option value="$PROJECT_DIR$/web/JS/mymenu.js" />
-        <option value="$PROJECT_DIR$/../JSTest/web/CSS/cssTest.css" />
-        <option value="$PROJECT_DIR$/../JSTest/web/JS/MyJS/mymenu.js" />
-        <option value="$PROJECT_DIR$/../JSTest/web/HTML/htmlTest.html" />
-        <option value="$PROJECT_DIR$/../JavascriptTest/web/JS/MyJS/mymenu.js" />
-        <option value="$PROJECT_DIR$/../JavascriptTest/pom.xml" />
-        <option value="$PROJECT_DIR$/../JavascriptMenu/pom.xml" />
+        <option value="$PROJECT_DIR$/../ThreadTest/src/Application.java" />
+        <option value="$PROJECT_DIR$/../ThreadTest/src/store/Customer.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/HTML/Java/maven.html" />
+        <option value="$PROJECT_DIR$/web/JS/loadJSandCSS.js" />
+        <option value="$PROJECT_DIR$/../JavascriptMenu/web/JS/mymenu.js" />
         <option value="$PROJECT_DIR$/../JavascriptMenu/web/HTML/testMyMenu.html" />
-        <option value="$PROJECT_DIR$/../JavascriptTest/web/HTML/testMyMenu.html" />
-        <option value="$PROJECT_DIR$/web/JS/imgLoad.js" />
+        <option value="$PROJECT_DIR$/../JavascriptMenu/README.md" />
+        <option value="$PROJECT_DIR$/web/HTML/test.html" />
+        <option value="$PROJECT_DIR$/web/JS/test.js" />
+        <option value="$PROJECT_DIR$/web/HTML/Java/stringMatch.html" />
+        <option value="$PROJECT_DIR$/web/CSS/common.css" />
+        <option value="$PROJECT_DIR$/web/JS/headerJSON.js" />
+        <option value="$PROJECT_DIR$/web/HTML/MainPage/mainPage.html" />
+        <option value="$PROJECT_DIR$/web/HTML/index.html" />
+        <option value="$PROJECT_DIR$/web/JS/clock.js" />
+        <option value="$PROJECT_DIR$/web/HTML/Java/hibernate.html" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/web/CSS/index.css" />
+        <option value="$PROJECT_DIR$/../StrutsSample/web/HTML/index.html" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/../StrutsSample/web/index.jsp" />
+        <option value="$PROJECT_DIR$/../StrutsSample/pom.xml" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/main/web/WEB-INF/classes/struts.xml" />
+        <option value="$PROJECT_DIR$/../StrutsSample/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../StrutsSample/web/success.html" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction3.java" />
+        <option value="$PROJECT_DIR$/../StrutsSample/web/login.jsp" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/main/java/model/User.java" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction2.java" />
+        <option value="$PROJECT_DIR$/web/HTML/Java/Framework/struts.html" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/struts.xml" />
+        <option value="$PROJECT_DIR$/../StrutsSample/web/success.jsp" />
+        <option value="$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction.java" />
+        <option value="$PROJECT_DIR$/../ThreadTest/src/BuyGoods.java" />
+        <option value="$PROJECT_DIR$/../ThreadTest/src/store/Store.java" />
+        <option value="$PROJECT_DIR$/../Scraper/src/AppMain.java" />
+        <option value="$PROJECT_DIR$/../Scraper/config.properties" />
+        <option value="$PROJECT_DIR$/../Scraper/src/Common/ParaSetting.java" />
+        <option value="$PROJECT_DIR$/../Scraper/pom.xml" />
+        <option value="$PROJECT_DIR$/../Scraper/Setting/config.properties" />
+        <option value="$PROJECT_DIR$/../Scraper/src/Common/config.properties" />
+        <option value="$PROJECT_DIR$/web/JS/leftJSON.js" />
+        <option value="$PROJECT_DIR$/web/HTML/Java/Thread/storeThread.html" />
+        <option value="$PROJECT_DIR$/web/JS/left.js" />
+        <option value="$PROJECT_DIR$/web/JS/search.js" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -382,6 +446,11 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -393,28 +462,37 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="JavascriptMenu" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="StrutsSample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="JavascriptTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="JavascriptTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="StrutsSample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StrutsSample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.struts:struts2-core:2.2.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StrutsSample" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.struts:struts2-core:2.2.3" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="ognl:ognl:3.0.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="20" />
+    <option name="x" value="-105" />
+    <option name="y" value="253" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -423,33 +501,61 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="KnowledgeWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavascriptTest" type="462c0819:PsiDirectoryNode" />
+              <item name="KnowledgeWeb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KnowledgeWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="KnowledgeWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KnowledgeWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KnowledgeWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="repository" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="d83edc14-aa63-4a2e-aad3-325bbce26a1b" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Scraper/src/Common" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -457,29 +563,36 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="project.structure.side.proportion" value="0.28705883" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\Java\JavascriptMenu\web" />
-      <recent name="D:\Project\Java\KnowledgeWeb\web\JS" />
-      <recent name="D:\Project\Java\JSTest\web\JS\MyJS" />
-      <recent name="D:\Project\Java\JSTest\web\JS" />
-      <recent name="D:\Project\Java\JSTest\web\CSS" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project\Java\JSTest\web\JS" />
+      <recent name="D:\Project\Java\Scraper\Setting" />
+      <recent name="D:\Project\Java\Scraper\src\Common" />
+      <recent name="D:\Project\Java\Scraper\src" />
+      <recent name="D:\Project\Java\StrutsSample\src" />
+      <recent name="D:\Project\Java\StrutsSample" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+      <recent name="connection" />
+      <recent name="testControl" />
+      <recent name="testConnection" />
+      <recent name="aaa" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Java\Scraper\src\Common" />
+      <recent name="D:\Project\Java\Scraper\src" />
+      <recent name="D:\Project\Java\Scraper" />
+      <recent name="D:\Project\Java\StrutsSample\src\main\webapp" />
+      <recent name="D:\Project\Java\KnowledgeWeb\web\HTML\Java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,46 +607,88 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.36">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SpringSample" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="controller.Application" />
+  <component name="RunManager" selected="Application.Scraper">
+    <configuration name="BuyGoods" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuyGoods" />
+      <module name="ThreadTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mapping" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connection.Mapping" />
+      <module name="HibernateSample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HibernateSample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scraper" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AppMain" />
+      <module name="Scraper" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Scraper" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Scraper" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Tomcat 8.0.36" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.36" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/KnowledgeWeb/HTML/index.html" />
       <deployment>
-        <artifact name="KnowledgeWeb:war exploded">
+        <artifact name="StrutsSample:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/KnowledgeWeb" />
-          </settings>
-        </artifact>
-        <artifact name="ServletSample:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/ServletSample" />
-          </settings>
-        </artifact>
-        <artifact name="SpringSample:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/SpringSample" />
-          </settings>
-        </artifact>
-        <artifact name="JavascriptMenu:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/JavascriptMenu_war_exploded" />
-          </settings>
-        </artifact>
-        <artifact name="JavascriptTest:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/JavascriptTest_war_exploded" />
+            <option name="CONTEXT_PATH" value="/StrutsSample" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_KnowledgeWeb_4" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_36_KnowledgeWeb" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -541,7 +696,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55191" />
+        <option name="DEBUG_PORT" value="50560" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -590,16 +745,11 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="KnowledgeWeb:war exploded" />
-          <artifact name="ServletSample:war exploded" />
-          <artifact name="SpringSample:war exploded" />
-          <artifact name="JavascriptMenu:war exploded" />
-          <artifact name="JavascriptTest:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.36" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_KnowledgeWeb" />
@@ -610,7 +760,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54282" />
+        <option name="DEBUG_PORT" value="50560" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -662,7 +812,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.Scraper" />
+      <item itemvalue="Application.BuyGoods" />
+      <item itemvalue="Application.Mapping" />
       <item itemvalue="Tomcat Server.Tomcat 8.0.36" />
     </list>
   </component>
@@ -671,36 +823,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3c6a7af5-0303-4ec6-89c7-800ba6cdf3ab" name="Default Changelist" comment="" />
-      <changelist id="ec569737-21dc-443c-a3b2-c893b2660b2a" name="a" comment="" />
-      <created>1564497477526</created>
+      <changelist id="2a63c8bb-436e-4a99-a5ad-f22dd3c81a06" name="Default Changelist" comment="" />
+      <created>1564921048964</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564497477526</updated>
-      <workItem from="1564497479276" duration="599000" />
-      <workItem from="1564531193966" duration="2214000" />
-      <workItem from="1564537280879" duration="549000" />
-      <workItem from="1564537851548" duration="5567000" />
-      <workItem from="1564559904910" duration="1190000" />
-      <workItem from="1564575917175" duration="8581000" />
-      <workItem from="1564619192676" duration="14434000" />
-      <workItem from="1564648649869" duration="8052000" />
-      <workItem from="1564664287320" duration="6757000" />
-      <workItem from="1564705851345" duration="12916000" />
-      <workItem from="1564722783127" duration="6575000" />
+      <updated>1564921048964</updated>
+      <workItem from="1564921051320" duration="6761000" />
+      <workItem from="1565002386770" duration="12141000" />
+      <workItem from="1565015307170" duration="1285000" />
+      <workItem from="1565016619401" duration="832000" />
+      <workItem from="1565017498780" duration="499000" />
+      <workItem from="1565050934057" duration="7059000" />
+      <workItem from="1565058050826" duration="16460000" />
+      <workItem from="1565138678402" duration="394000" />
+      <workItem from="1565141559949" duration="10742000" />
+      <workItem from="1565168024076" duration="18433000" />
+      <workItem from="1565224984785" duration="22219000" />
+      <workItem from="1565311863627" duration="16794000" />
+      <workItem from="1565407800609" duration="5151000" />
+      <workItem from="1565434766818" duration="546000" />
+      <workItem from="1565445655777" duration="1199000" />
+      <workItem from="1565484467180" duration="18604000" />
+      <workItem from="1565600832096" duration="10039000" />
+      <workItem from="1565655764785" duration="35127000" />
+      <workItem from="1565745308034" duration="6450000" />
+      <workItem from="1566180202732" duration="3529000" />
+      <workItem from="1566205118232" duration="2193000" />
+      <workItem from="1566209143665" duration="929000" />
+      <workItem from="1566435168439" duration="12668000" />
     </task>
-    <task id="LOCAL-00001" summary="ok">
-      <created>1564729211967</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1564729211967</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67434000" />
+    <option name="totallyTimeSpent" value="210054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,56 +870,47 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49598393" visible="true" weight="0.28366762" />
-      <window_info id="Structure" order="1" sideWeight="0.50401604" side_tool="true" weight="0.28366762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6566265" visible="true" weight="0.31017193" />
+      <window_info id="Structure" order="1" sideWeight="0.33734939" side_tool="true" weight="0.30157593" />
       <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
+      <window_info id="Persistence" order="3" sideWeight="0.33534136" side_tool="true" weight="0.30157593" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="SVN Repositories" weight="0.32884097" />
+      <window_info id="Image Layers" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.3433735" side_tool="true" weight="0.29799426" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7077364" weight="0.32884097" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49856734" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32884097" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028653" side_tool="true" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49713466" weight="0.32884097" />
-      <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49928367" weight="0.32884097" />
-      <window_info anchor="bottom" id="Spring" order="15" weight="0.32884097" />
-      <window_info anchor="bottom" id="Problems" order="16" weight="0.32884097" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.21346705" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3295129" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.49641833" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884097" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.2922636" side_tool="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.484957" weight="0.32884097" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32884097" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32884097" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32884097" />
+      <window_info anchor="right" x="0" y="0" width="314" height="676" id="Documentation" order="0" sideWeight="0.5060241" side_tool="true" weight="0.24212034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" sideWeight="0.49799198" visible="true" weight="0.19269341" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.4939759" weight="0.24212034" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3295129" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -791,248 +937,527 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/JS/leftJSON.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction2.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction3.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Application.userList.get(0).getState()" language="JAVA" />
+        <watch expression="Application.userList.get(1).getState()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>Application.userList.get(1).getState()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Application.userList.get(0).getState()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../SpringSample/src/main/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../Scraper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JS/leftJSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="209" column="18" selection-start-line="209" selection-start-column="18" selection-end-line="209" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/CSS/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="204" column="16" lean-forward="true" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="232" column="23" lean-forward="true" selection-start-line="232" selection-start-column="23" selection-end-line="232" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/HTML/Project/disasterProject.html">
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/src/main/resources/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/web/HTML/index.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.2.3/struts2-core-2.2.3.jar!/org/apache/struts2/dispatcher/ng/filter/StrutsPrepareAndExecuteFilter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="38">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringSample/src/main/java/controller/s/aa.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.2.3/struts2-core-2.2.3-sources.jar!/org/apache/struts2/dispatcher/ng/filter/StrutsPrepareAndExecuteFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="266">
+          <caret line="45" column="73" lean-forward="true" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Image/apple.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/HTML/Java/Framework/hibernate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JS/imgLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.2.3/xwork-core-2.2.3.jar!/com/opensymphony/xwork2/TextProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.2.3/xwork-core-2.2.3.jar!/com/opensymphony/xwork2/ActionSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2403#2404#0" expanded="true" />
+            <element signature="e#2467#2468#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/HTML/Java/Framework/Spring/springBoot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SpringSample/src/main/java/aaa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringSample/src/main/java/controller/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringSample/src/main/java/controller/aaa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringSample/src/main/java/controller/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringSample/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/web/success.html" />
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../SpringSample/src/main/java/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="152">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/HTML/Java/Framework/struts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="258" column="7" lean-forward="true" selection-start-line="258" selection-start-column="7" selection-end-line="258" selection-end-column="7" />
+          <folding>
+            <element signature="n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#0;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu-header#0;n#my-menu#0;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#0;n#my-menu#0;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#dependency#0;n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu-header#0;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#0;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#web-app#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#welcome-file-list#0;n#web-app#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#filter#0;n#web-app#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#filter-mapping#0;n#web-app#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#1;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#xmp#0;n#pre#1;n#my-menu#1;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#0;n#my-menu#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#0;n#my-menu#0;n#my-menu#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#0;n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#1;n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#2;n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#0;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#0;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#table#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#1;n#table#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#2;n#table#0;n#xmp#0;n#pre#0;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#1;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#2;n#my-menu#1;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#0;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#xmp#0;n#pre#0;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#form#0;n#xmp#0;n#pre#0;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#0;n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#1;n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#tr#2;n#table#0;n#form#0;n#xmp#0;n#pre#0;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#pre#1;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#xmp#0;n#pre#1;n#my-menu#2;n#my-menu#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/src/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/web/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/src/main/java/controller/LoginAction3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/src/main/java/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../StrutsSample/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="27" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ServletSample/src/index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="19">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ThreadTest/src/store/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scraper/src/AppMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scraper/src/ss.properties" />
+    <entry file="file://$PROJECT_DIR$/../Scraper/src/config.properties" />
+    <entry file="jar://D:/Tool/Java/jdk1.8.0_161/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scraper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scraper/Setting/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scraper/target/classes/AppMain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#4772#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scraper/src/Common/config.properties" />
+    <entry file="file://$PROJECT_DIR$/../Scraper/target/classes/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Scraper/src/Common/ParaSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ThreadTest/src/BuyGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/HTML/test.html">
+    <entry file="file://$PROJECT_DIR$/../ThreadTest/src/store/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="24">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/svg11/svg-basic-structure.rnc">
+    <entry file="file://$PROJECT_DIR$/web/HTML/Java/stringMatch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="218" column="16" selection-start-line="218" selection-start-column="16" selection-end-line="218" selection-end-column="16" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Image/springBoot.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JS/mymenu.js">
+    <entry file="file://$PROJECT_DIR$/web/HTML/Java/Thread/storeThread.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1370">
+          <caret line="84" column="31" lean-forward="true" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/HTML/Java/springBoot.html">
+    <entry file="file://$PROJECT_DIR$/web/JS/headerJSON.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <element signature="n#my-menu-header#0;n#my-menu#0;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#my-menu#0;n#my-menu#2;n#my-menu#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="-27" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/HTML/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringSample/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/JS/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="-326">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JS/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/JS/left.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptTest/web/JS/MyJS/mymenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="334">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptTest/web/CSS/cssTest.css">
+    <entry file="file://$PROJECT_DIR$/web/JS/leftJSON.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+        <state>
+          <caret column="16" selection-start-column="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#130#241#0" />
+            <element signature="e#132#240#0" />
+            <element signature="e#261#863#0" />
+            <element signature="e#262#365#0" />
+            <element signature="e#367#862#0" />
+            <element signature="e#527#860#0" />
+            <element signature="e#528#695#0" />
+            <element signature="e#697#859#0" />
+            <element signature="e#883#1403#0" />
+            <element signature="e#884#1020#0" />
+            <element signature="e#1022#1402#0" />
+            <element signature="e#1120#1400#0" />
+            <element signature="e#1121#1252#0" />
+            <element signature="e#1254#1399#0" />
+            <element signature="e#1422#1789#0" />
+            <element signature="e#1423#1514#0" />
+            <element signature="e#1516#1648#0" />
+            <element signature="e#1650#1788#0" />
+            <element signature="e#1809#2710#0" />
+            <element signature="e#1815#1974#0" />
+            <element signature="e#1980#2578#0" />
+            <element signature="e#2100#2572#0" />
+            <element signature="e#2114#2294#0" />
+            <element signature="e#2308#2571#0" />
+            <element signature="e#2580#2709#0" />
+            <element signature="e#2731#3059#0" />
+            <element signature="e#2732#2837#0" />
+            <element signature="e#2839#2954#0" />
+            <element signature="e#2956#3058#0" />
+            <element signature="e#3078#5037#0" />
+            <element signature="e#3079#5036#0" />
+            <element signature="e#3183#5034#0" />
+            <element signature="e#3184#3327#0" />
+            <element signature="e#3329#3488#0" />
+            <element signature="e#3490#3677#0" />
+            <element signature="e#3679#3822#0" />
+            <element signature="e#3824#3969#0" />
+            <element signature="e#3971#4114#0" />
+            <element signature="e#4116#4265#0" />
+            <element signature="e#4267#4410#0" />
+            <element signature="e#4412#4549#0" />
+            <element signature="e#4551#4694#0" />
+            <element signature="e#4696#4857#0" />
+            <element signature="e#4859#5033#0" />
+            <element signature="e#5060#5690#0" />
+            <element signature="e#5061#5288#0" />
+            <element signature="e#5154#5286#0" />
+            <element signature="e#5155#5285#0" />
+            <element signature="e#5290#5560#0" />
+            <element signature="e#5395#5558#0" />
+            <element signature="e#5396#5557#0" />
+            <element signature="e#5562#5688#0" />
+            <element signature="e#5788#6483#0" />
+            <element signature="e#5789#6092#0" />
+            <element signature="e#5917#6086#0" />
+            <element signature="e#5918#6085#0" />
+            <element signature="e#6094#6217#0" />
+            <element signature="e#6219#6354#0" />
+            <element signature="e#6356#6482#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptMenu/JavascriptMenu.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptMenu/target/maven-archiver/pom.properties">
+    <entry file="file://$PROJECT_DIR$/web/JS/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptTest/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptTest/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptMenu/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptTest/web/HTML/testMyMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JavascriptMenu/web/HTML/testMyMenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JS/imgLoad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="651">
+          <caret line="85" selection-start-line="85" selection-end-line="86" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
+      <state key="ArquillianSettingsConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>JavascriptMenu:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>HibernateSample:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28705883" />
               </list>
             </option>
           </splitter-proportions>
@@ -1040,11 +1465,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web (KnowledgeWeb)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2816092" />
               </list>
             </option>
           </splitter-proportions>
@@ -1067,7 +1492,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2816092" />
               </list>
             </option>
           </splitter-proportions>
@@ -1075,24 +1500,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JavascriptMenu</last-edited>
+          <last-edited>Web|ServletSample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
+                <option value="0.28705883" />
               </list>
             </option>
           </splitter-proportions>
@@ -1100,11 +1512,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Scraper-0.0.1-SNAPSHOT</last-edited>
+          <last-edited>Hibernate 5.4.3-5.4.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2816092" />
               </list>
             </option>
           </splitter-proportions>

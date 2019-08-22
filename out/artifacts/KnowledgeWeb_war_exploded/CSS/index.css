@@ -15,6 +15,7 @@ a {
     -o-transition: all 0.5s linear;
 }
 
+
 #header {
     position: absolute;
     top: 0px;
@@ -41,7 +42,7 @@ a {
 
 .headerListItem1Text {
     position: relative;
-    background-color: rvar(--darkBlue);
+    background-color: var(--darkBlue);
     width: 150px;
     height: 50px;
     display: block;
@@ -49,7 +50,7 @@ a {
     color: rgb(255, 255, 255);
     text-align: center;
     line-height: 50px;
-    font-size: 25;
+    font-size: 15px;
     line-height: 50px;
     height: 50px;
 }
@@ -67,7 +68,7 @@ a {
     color: rgb(255, 255, 255);
     text-align: center;
     line-height: 50px;
-    font-size: 25;
+    font-size: 15px;
     opacity: 1;
 }
 
@@ -107,7 +108,6 @@ a {
     height: 150px;
     width: 150px;
     color: rgb(255, 255, 255);
-    z-index: -1;
 }
 
 #headerDateText {
@@ -135,8 +135,7 @@ a {
     line-height: 150px;
     height: 150px;
     width: 150px;
-
-    /* 	z-index: 99; */
+    z-index: 99;
 }
 
 .headerTimeText1 {
@@ -147,7 +146,6 @@ a {
 .headerTimeText2 {
     opacity: 1;
     transform: scale(1.8);
-    z-index: 99;
 }
 
 #headerImg {
@@ -165,13 +163,11 @@ a {
 .headerImg1 {
     opacity: 0;
     transform: scale(1);
-    z-index: 99;
 }
 
 .headerImg2 {
     opacity: 0.6;
     transform: scale(2);
-    z-index: 99;
 }
 
 #headerSearch {
@@ -216,7 +212,7 @@ a {
     color: rgb(255, 255, 255);
     text-align: center;
     line-height: 50px;
-    font-size: 25;
+    font-size: 15px;
 }
 
 #leftList {
@@ -224,46 +220,60 @@ a {
     bottom: 0px;
 }
 
-.leftListItem1 {
+.leftListItem {
     overflow: auto;
     width: 200px;
+    padding: 0px;
 }
 
-.leftListItem1Text {
-    display: block;
+.leftListItemText {
+    display: inline;
     position: relative;
     height: 50px;
-    background-color: var(--lightBlue);
     padding-left: 10px;
     color: rgb(255, 255, 255);
     text-align: left;
     line-height: 50px;
-    font-size: 25;
+    font-size: 15px;
+    vertical-align: top;
 }
 
-.leftListItem2Text {
-    display: block;
-    position: relative;
-    /* 	height: 50px; */
-    background-color: var(--lightBlue);
-    padding-left: 20px;
-    padding-right: 10px;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    line-height: 40px;
-    font-size: 25;
-}
-
-.leftListItem3Text {
-    display: block;
+.leftListItem1Text {
+    display: inline;
     position: relative;
     height: 50px;
-    background-color: var(--lightBlue);
-    padding-left: 50px;
+    padding-left: 10px;
     color: rgb(255, 255, 255);
     text-align: left;
     line-height: 50px;
-    font-size: 25;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.leftListItem2Text {
+    display: inline;
+    position: relative;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 50px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.leftListItem3Text {
+    display: inline;
+    position: relative;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 50px;
+    font-size: 15px;
+    vertical-align: top;
 }
 
 #content {
@@ -302,9 +312,6 @@ a {
 
 #test {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 1000px;
-    height: 70px;
-    background-color: yellow;
+    top: 8px;
+    right: 8px;
 }

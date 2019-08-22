@@ -51,7 +51,6 @@ function clockInitialize() {
         $("#headerClockSvg").animate({
             opacity: 0.1
         }, 500);
-
         $("#headerDateText").removeClass("headerDateText1");
         $("#headerDateText").addClass("animation");
         $("#headerDateText").addClass("headerDateText2");

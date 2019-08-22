@@ -1,6 +1,6 @@
 var headerData = [ {
 	title : "MainPage",
-	dataName : "",
+	dataName : "dataMainPage",
 	subItem : []
 }, {
 	title : "GIS",

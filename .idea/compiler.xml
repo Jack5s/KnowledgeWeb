@@ -6,18 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavascriptMenu" />
-        <module name="Scraper" />
+        <module name="StrutsSample" />
         <module name="SpringSample" />
-        <module name="JavascriptTest" />
+        <module name="HibernateSample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavascriptMenu" target="1.5" />
-      <module name="JavascriptTest" target="1.5" />
-      <module name="KnowledgeWeb" target="1.5" />
+      <module name="HibernateSample" target="1.5" />
       <module name="Scraper" target="1.8" />
       <module name="SpringSample" target="1.8" />
+      <module name="StrutsSample" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

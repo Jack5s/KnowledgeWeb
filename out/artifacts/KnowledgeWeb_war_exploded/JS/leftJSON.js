@@ -1,6 +1,11 @@
 var dataStrArray = ["dataDataBase", "dataGISData", "dataPassword",
     "dataArcGIS", "dataProject", "dataJava"];
-
+var dataMainPage=[ {
+    title: "Main Page",
+    longTitle: "main page",
+    url: "./MainPage/mainPage.html",
+    subItem: []
+}]
 var dataDataBase = [{
     title: "MSSQL",
     longTitle: "Microsoft SQL",
@@ -47,7 +52,7 @@ var dataGISData = [{
 var dataArcGIS = [{
     title: "ArcMap",
     longTitle: "ArcMap",
-    url: "../Data/a.docx",
+    url: "./Data/a.docx",
     subItem: []
 }, {
     title: "ArcGIS Pro",
@@ -98,7 +103,7 @@ var dataPassword = [{
 }, {
     title: "Science Password",
     longTitle: "Common Password",
-    url: "../Data/OpenGIS.htm",
+    url: "./Data/OpenGIS.htm",
     subItem: []
 }, {
     title: "Game",
@@ -109,66 +114,66 @@ var dataPassword = [{
 var dataCourse = [{
     title: "Open GIS",
     longTitle: "Open GIS",
-    url: "../Data/OpenGIS/OpenGIS.pdf",
+    url: "./Data/OpenGIS/OpenGIS.pdf",
     subItem: [{
         title: "01 introduction",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/01 introduction.pdf",
+        url: "./Data/OpenGIS/01 introduction.pdf",
         subItem: []
     }, {
         title: "02 technical background",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/02 technical background.pdf",
+        url: "./Data/OpenGIS/02 technical background.pdf",
         subItem: []
     }, {
         title: "03 simple featue concept spatial dbms",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/03 simple featue concept spatial dbms.pdf",
+        url: "./Data/OpenGIS/03 simple featue concept spatial dbms.pdf",
         subItem: []
     }, {
         title: "04 geodatabases",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/04 geodatabases.pdf",
+        url: "./Data/OpenGIS/04 geodatabases.pdf",
         subItem: []
     }, {
         title: "05 view services",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/05 view services.pdf",
+        url: "./Data/OpenGIS/05 view services.pdf",
         subItem: []
     }, {
         title: "06 wmts service",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/06 wmts service.pdf",
+        url: "./Data/OpenGIS/06 wmts service.pdf",
         subItem: []
     }, {
         title: "07 geojson wfs fes",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/07 geojson wfs fes.pdf",
+        url: "./Data/OpenGIS/07 geojson wfs fes.pdf",
         subItem: []
     }, {
         title: "08 metadata csw",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/08 metadata csw.pdf",
+        url: "./Data/OpenGIS/08 metadata csw.pdf",
         subItem: []
     }, {
         title: "09 open data",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/09 open data.pdf",
+        url: "./Data/OpenGIS/09 open data.pdf",
         subItem: []
     }, {
         title: "10 inspire gdpr",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/10 inspire gdpr.pdf",
+        url: "./Data/OpenGIS/10 inspire gdpr.pdf",
         subItem: []
     }, {
         title: "11 inspire view servies1",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/11 inspire view servies1.pdf",
+        url: "./Data/OpenGIS/11 inspire view servies1.pdf",
         subItem: []
     }, {
         title: "12 ogc sos swe sensorthings",
         longTitle: "Open GIS",
-        url: "../Data/OpenGIS/12_190619_ogc_sos_swe_sensorthings.pdf",
+        url: "./Data/OpenGIS/12_190619_ogc_sos_swe_sensorthings.pdf",
         subItem: []
     }]
 }];
@@ -181,7 +186,7 @@ var dataJavaScript = [{
         longTitle: "svg jquery",
         url: "./Javascript/svgJQuery.html",
         subItem: []
-    },]
+    }]
 }, {
     title: "HTML 5",
     longTitle: "svg jquery",
@@ -192,21 +197,48 @@ var dataJavaScript = [{
         url: "./Javascript/animationHtml5.html",
         subItem: []
     }]
-}];
-
+}, {
+    title: "Import Javascript",
+    longTitle: "import javascript",
+    url: "./Javascript/importJS.html",
+    subItem: []
+}
+];
 var dataJava = [{
-    title: "Time",
-    longTitle: "Time",
-    url: "./Java/time.html",
-    subItem: []
-}, {
-    title: "Maven",
-    longTitle: "maven",
-    url: "./Java/maven.html",
-    subItem: []
-}, {
-    title: "Spring Boot",
-    longTitle: "spring boot",
-    url: "./Java/springBoot.html",
-    subItem: []
-}];
+    title: "Framework",
+    longTitle: "framework",
+    url: "",
+    subItem: [{
+        title: "Spring",
+        longTitle: "spring",
+        url: "https://spring.io/projects/spring-boot",
+        subItem: [{
+            title: "Spring Boot",
+            longTitle: "spring boot",
+            url: "./Java/Framework/Spring/springBoot.html",
+            subItem: []
+        }]
+    }, {
+        title: "Maven",
+        longTitle: "maven",
+        url: "./Java/Framework/maven.html",
+        subItem: []
+    }, {
+        title: "Hibernate",
+        longTitle: "hibernate",
+        url: "./Java/Framework/hibernate.html",
+        subItem: []
+    },]
+},
+    {
+        title: "Time",
+        longTitle: "Time",
+        url: "./Java/time.html",
+        subItem: []
+    }, {
+        title: "String Match",
+        longTitle: "string match",
+        url: "./Java/stringMatch.html",
+        subItem: []
+    }];
+

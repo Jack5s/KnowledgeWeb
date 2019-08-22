@@ -3,15 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script type="text/javascript">
-	var pathName = window.document.location.pathname;
-	var projectName = pathName
-			.substring(1, pathName.substr(1).indexOf('/') + 1);
-	document
-			.write("<link rel='stylesheet' href='/"+projectName+"/CSS/common.css'></sc"+"ript>");
-	document
-			.write("<script language=javascript src='/"+projectName+"/JS/run_prettify.js'></sc"+"ript>");
-</script>
+	<script type="text/javascript">
+		var pathName = window.document.location.pathname;
+		var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+		var scriptElement = document.createElement('script');
+		scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+		document.head.appendChild(scriptElement);
+	</script>
 </head>
 <body>
 	<h1>Time in Java</h1>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Struts</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
+    </script>
+</head>
+<body>
+<p>Struts是一个MVC框架，需要更多了解更多可以浏览<a href="https://struts.apache.org/">Struts官网</a></p>
+<my-menu expandState="collapse">
+    <my-menu-header>环境配置</my-menu-header>
+    <my-menu>
+        <my-menu-header>
+            <div>添加Struts依赖</div>
+        </my-menu-header>
+        <p>使用idea可以直接新建Struts工程，这里介绍利用Maven的构建方法</p>
+        <pre class="prettyprint"><xmp><dependency>
+        <groupId>org.apache.struts</groupId>
+        <artifactId>struts2-core</artifactId>
+        <version>2.2.3</version>
+    </dependency></xmp></pre>
+    </my-menu>
+
+    <my-menu>
+        <my-menu-header>
+            <div>配置web.xml</div>
+        </my-menu-header>
+        <p>在WEB-INF目录下，配置web.xml</p>
+        <p>welcome-file是欢迎界面，不输入任何路径时展示的界面</p>
+        <pre class="prettyprint"><xmp><?xml version="1.0" encoding="UTF-8"?>
+            <web-app id="WebApp_ID" version="2.4"
+                     xmlns="http://java.sun.com/xml/ns/j2ee"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <display-name>Basic Struts2</display-name>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <filter>
+        <filter-name>struts2</filter-name>
+        <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>struts2</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app></xmp></pre>
+        <p>需要注意的是filter-class，根据struts的版本不同有所区别：</p>
+        <p>同时项目需要servlet，可以手动添加，也可以用maven，这里用tomcat服务器就顺便手动添加了</p>
+        <pre class="prettyprint"><xmp><filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+<filter-class>org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class></xmp></pre>
+    </my-menu>
+</my-menu>
+
+<my-menu expandState="collapse">
+    <my-menu-header>MVC框架搭建</my-menu-header>
+    <my-menu>
+        <my-menu-header>Model</my-menu-header>
+        <p>Model基本就是一个类，最简单的就是用户类：</p>
+        <pre class="prettyprint">public class User {
+	public String userName;
+	public  String password;
+}</pre>
+        <my-menu>
+            <my-menu-header>Controller</my-menu-header>
+            <p>在controller新建类LoginAction，这里省点事我就直接返回成功，实际用的话肯定会用到Model的部分，这个在下面会说</p>
+            <pre class="prettyprint">import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport {
+	public String execute() {
+		return SUCCESS;
+	}
+}</pre>
+        </my-menu>
+    </my-menu>
+    <my-menu>
+        <my-menu-header>映射struts.xml</my-menu-header>
+        <p>这个文件是MVC框架额核心，将View的请求和后台的Controller一一对应</p>
+        <p>在src目录下新建struts.xml文件（新建位置不重要，但名称要对）：</p>
+        <pre class="prettyprint"><xmp><?xml version="1.0" encoding="UTF-8"?>
+            <!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+    <constant name="struts.devMode" value="true"/>
+    <package name="default" extends="struts-default">
+        <action name="login" class="controller.LoginAction" method="execute">
+            <result name="success">/success.jsp</result>
+        </action>
+    </package>
+</struts></xmp></pre>
+        <p>action中name是请求的地址，class是处理请求类的名称，method是处理改请求的方法（继承自ActionSupport）</p>
+        <p>result中name是返回值，result里的内容是返回值对应的跳转网页</p>
+        <p>struts.xml文件创建好之后，要将其添加进发布路径classes中：</p>
+        <img imgName="strutsAddXML" height="400px"/>
+        <p>输入http://localhost:8080/StrutsSample/login.action就可以直接跳转到success.jsp网页了</p>
+    </my-menu>
+</my-menu>
+
+<my-menu expandState="collapse">
+    <my-menu-header>参数传递</my-menu-header>
+    <p>Struts通常使用以下三种方式将前台数据传给后台：</p>
+    <my-menu>
+        <my-menu-header>直接传</my-menu-header>
+        <p>直接传递，可以不用Model</p>
+        <h3>View的内容</h3>
+        <pre class="prettyprint"><xmp><form action="login.action" method="post">
+    <table>
+        <tr>
+            <td>用户名：</td>
+            <td><input type="text" name="userName"></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center"><input type="submit" value="登录"></td>
+        </tr>
+    </table>
+</form></xmp></pre>
+        <h3>controller的内容</h3>
+        <pre class="prettyprint">public class LoginAction extends ActionSupport {
+	private String userName;
+	private String password;
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	@Override
+	public String execute() throws Exception {
+		if (userName.equals("me") && password.equals("12345")) {
+			return SUCCESS;
+		} else {
+			return ERROR;
+		}
+	}
+}</pre>
+        <p>前台的name必须与后台的变量名一一对应，这样才能获得相应的值，这种方法controller完全分不开，而且参数太多controller太长</p>
+    </my-menu>
+    <my-menu>
+        <my-menu-header>采用Struts2内置的OGNL</my-menu-header>
+        <p>该方法Model需要更改一下，加访问器；controller简介了许多，view的name需要和controller中一致</p>
+        <h3>View的内容</h3>
+        <pre class="prettyprint"><xmp><table>
+    <tr>
+        <td>用户名：</td>
+        <td><input type="text" name="user.userName"></td>
+    </tr>
+    <tr>
+        <td>密码：</td>
+        <td><input type="password" name="user.password"></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center"><input type="submit" value="登录"></td>
+    </tr>
+</table></xmp></pre>
+        <h3>controller的内容</h3>
+        <pre class="prettyprint">public class LoginAction extends ActionSupport {
+	private User user=new User();
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	@Override
+	public String execute() throws Exception {
+		if (user.userName.equals("me") && user.password.equals("12345")) {
+			return SUCCESS;
+		} else {
+			return ERROR;
+		}
+	}
+}</pre>
+        <h3>Model的内容</h3>
+        <pre class="prettyprint">public class User {
+	public String userName;
+	public String password;
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+}</pre>
+        <p>这种方法虽然model和controller关联小了，但是view却和controller，model都有关系，个人觉得严重违背了MVC的设计初衷</p>
+    </my-menu>
+    <my-menu>
+        <my-menu-header>采用Struts2里面模型驱动</my-menu-header>
+        <p>使用ModelDriven类，View和第一种方法一样，controller需要实现ModelDriven接口，model需要访问器</p>
+        <h3>View的内容</h3>
+        <pre class="prettyprint"><xmp><form action="login.action" method="post">
+    <table>
+        <tr>
+            <td>用户名：</td>
+            <td><input type="text" name="userName"></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center"><input type="submit" value="登录"></td>
+        </tr>
+    </table>
+</form></xmp></pre>
+        <h3>controller的内容</h3>
+        <pre class="prettyprint"><xmp>public class LoginAction extends ActionSupport implements ModelDriven<xmp> {
+	private User user = new User();
+	@Override
+	public String execute() throws Exception {
+		if (user.userName.equals("me") && user.password.equals("1234")) {
+			return SUCCESS;
+		} else {
+			return ERROR;
+		}
+	}
+
+	public User getModel() {
+		return user;
+	}
+}</xmp></pre>
+    </my-menu>
+</my-menu>
+</body>
+</html>

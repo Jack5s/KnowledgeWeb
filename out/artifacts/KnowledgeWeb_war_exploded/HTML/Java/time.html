@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Insert title here</title>
-    <script type="text/javascript">
-        var pathName = window.document.location.pathname;
-        var projectName = pathName
-            .substring(1, pathName.substr(1).indexOf('/') + 1);
-        document
-            .write("<link rel='stylesheet' href='/" + projectName + "/CSS/common.css'></sc" + "ript>");
-        document
-            .write("<script language=javascript src='/" + projectName + "/JS/run_prettify.js'></sc" + "ript>");
-    </script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		var pathName = window.document.location.pathname;
+		var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+		var scriptElement = document.createElement('script');
+		scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+		document.head.appendChild(scriptElement);
+	</script>
 </head>
 <body>
-<h1>Time in Java</h1>
-<h2>use Calendar to store time</h2>
-<pre class="prettyprint">Calendar calendar = Calendar.getInstance();
+	<h1>Time in Java</h1>
+	<h2>use Calendar to store time</h2>
+	<pre class="prettyprint">Calendar calendar = Calendar.getInstance();
 //month start with 0 in Calendar
 calendar.set(year, month - 1, day, hour, minute, 0);
 //Please remember to clear millisecond, otherwise it would be a random number. Java这是什么鬼设定
 calendar.clear(Calendar.MILLISECOND);
 </pre>
-<h2>convert calendar to Timestamp</h2>
-<pre class="prettyprint">Timestamp timestamp = new Timestamp(calendar.getTimeInMillis());
+	<h2>convert calendar to Timestamp</h2>
+	<pre class="prettyprint">Timestamp timestamp = new Timestamp(calendar.getTimeInMillis());
 </pre>
 </body>
 </html>

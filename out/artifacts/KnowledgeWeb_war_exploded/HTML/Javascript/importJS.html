@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Import</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
+    </script>
+</head>
+<body>
+<h1>Javascript引用github</h1>
+<p>html中常需要引用github中raw获取js文件</p>
+<pre class="prettyprint"><xmp><script src="https://raw.githubusercontent.com/Jack5s/JavascriptMenu/master/web/JS/MyJS/mymenu.js"></script></xmp></pre>
+<p>但因为raw.githubusercontent.com在Response中设置了X-Content-Type-Options:nosniff ，告诉浏览器强制检查资源的MIME，进行加载。由于其返回类型text和引用的js类型不同，可能会被浏览器拦截（Cross-Origin Read Blocking，CORB）</p>
+<p>使用github链接时，将链接中的raw.githubusercontent.com换成raw.githack.com即可</p>
+<pre class="prettyprint"><xmp><script src="https://raw.githack.com/Jack5s/JavascriptMenu/master/web/JS/mymenu.js"></script></xmp></pre>
+</body>
+</html>

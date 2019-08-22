@@ -49,9 +49,8 @@ function clockInitialize() {
     $("#headerImg").addClass("headerImg1");
     $("#headerClock").mouseenter(function () {
         $("#headerClockSvg").animate({
-            opacity: 0.8
+            opacity: 0.1
         }, 500);
-
         $("#headerDateText").removeClass("headerDateText1");
         $("#headerDateText").addClass("animation");
         $("#headerDateText").addClass("headerDateText2");

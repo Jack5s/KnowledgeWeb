@@ -3,9 +3,16 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
+    </script>
 </head>
 <body>
 <h1>Process Data with SQL</h1>
-<pre>The project is to check to quality of meteorology station data. Station observe some data, but some data is abnormal. We are required</pre>
+<p>The project is to check to quality of meteorology station data. Station observe some data, but some data is abnormal. We are required</p>
 </body>
 </html>

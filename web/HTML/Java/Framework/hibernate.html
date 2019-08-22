@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
+    </script>
+</head>
+<body>
+<h1>Hibernate</h1>
+<p>Hibernate()用于将数据库中记录和程序中类进行一一对应（映射Mapping）的框架</p>
+<p>可以方便的对数据库进行操作，基本避免了在程序中写SQL语句</p>
+<p>不写SQL语句局限性较大，但对于通常的简单查找、插入和删除，还是能省不少事的</p>
+<my-menu>
+    <my-menu-header>
+        <div>类的自动生成</div>
+    </my-menu-header>
+    <p>Hibernate需要多个依赖包，并根据xml的信息进行数据库连接</p>
+    <my-menu>
+        <my-menu-header>
+            <div>添加依赖</div>
+        </my-menu-header>
+        <p>利用idea可以直接新建hibernate，或是项目上右键Add framework，可以直接添加hibernate的依赖</p>
+        <p>也可以使用Maven添加相关的依赖：</p>
+        <pre class="prettyprint"><xmp><dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-agroal</artifactId>
+    <version>5.4.4.Final</version>
+    <type>pom</type>
+</dependency></xmp></pre>
+    </my-menu>
+    <my-menu>
+        <my-menu-header>
+            <div>生成xml</div>
+        </my-menu-header>
+        <p>1. 在新建hibernate框架时可以直接生成xml配置文件，使用maven需要手动生成：</p>
+        <p>2. 在idea中，点击File->Project Structure，选择modules->项目->hibernate，添加xml文件</p>
+        <p>3. idea界面右侧Database添加相应的数据库连接，成功可以直接打开数据库中表格</p>
+        <p>4. idea界面左侧persistence选项卡中项目名上右键Generate Persistence Mapping->By Database schema</p>
+        <p>Tips: 记得把Add to Session Factory勾掉，把Generate Separate XML per Entity勾上</p>
+        <img src="" imgName="hibernateSetting" height="500px"/>
+        <p>在所选的包的目录下，会自动生成数据库表格对应的类</p>
+    </my-menu>
+</my-menu>
+<my-menu>
+    <my-menu-header>
+        <div>数据库交互</div>
+    </my-menu-header>
+    <p>Hibernate通过session操作对象，数据库的操作依然需要配置连接参数，添加驱动</p>
+    <my-menu>
+        <my-menu-header>
+            <div>驱动添加</div>
+        </my-menu-header>
+        <p>以MySQL为例，在xml配置文件中添加数据库连接需要的用户名，密码等配置</p>
+        <pre class="prettyprint"><xmp><hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/test?serverTimezone=GMT</property>
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">123456</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <mapping class="connection.TesttableEntity"/>
+  </session-factory>
+</hibernate-configuration></xmp></pre>
+    </my-menu>
+    <my-menu>
+        <my-menu-header>
+            <div>xml文件配置</div>
+        </my-menu-header>
+        <p>添加驱动的包</p>
+        <pre class="prettyprint"><xmp><dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-agroal</artifactId>
+    <version>5.4.4.Final</version>
+    <type>pom</type>
+</dependency></xmp></pre>
+    </my-menu>
+    <my-menu>
+        <my-menu-header>
+            <div>数据库操作</div>
+        </my-menu-header>
+
+        <my-menu>
+            <my-menu-header>
+                <div>选择select</div>
+            </my-menu-header>
+            <pre class="prettyprint"><xmp>public static void select() {
+    Configuration configuration;
+    configuration = new Configuration();
+    configuration.configure();
+    SessionFactory factory = configuration.buildSessionFactory();
+    Session session = factory.openSession();
+    String sqlQuery = "select * from testtable";
+    Query query = session.createSQLQuery(sqlQuery);
+    List<Object> list = query.list();
+    session.close();
+    for (int i = 0; i < list.size(); i++) {
+        Object[] listItem = (Object[]) list.get(i);
+        System.out.println(listItem[0] + " " + listItem[1]);
+    }
+}</xmp></pre>
+        </my-menu>
+        <my-menu>
+            <my-menu-header>
+                <div>更新update</div>
+            </my-menu-header>
+            <p>其实对于插入和删除㛑可以使用同样的方法，不过hubernate提供了全新的方法进行插入和是删除</p>
+            <p>需要注意的是，只要对数据库有更改，都需要用Transaction进行提交</p>
+            <pre class="prettyprint">public static void update() {
+    Configuration configuration;
+    configuration = new Configuration();
+    configuration.configure();
+    SessionFactory factory = configuration.buildSessionFactory();
+    Session session = factory.openSession();
+    String sqlQuery = "update TesttableEntity set content='999' where id=0";
+    Query query = session.createQuery(sqlQuery);
+    Transaction transaction = session.getTransaction();
+    transaction.begin();
+    query.executeUpdate();
+    transaction.commit();
+}</pre>
+        </my-menu>
+        <my-menu>
+            <my-menu-header>
+                <div>插入insert</div>
+            </my-menu-header>
+            <pre class="prettyprint">public static void insert() {
+    TesttableEntity testtableEntity = new TesttableEntity();
+    testtableEntity.setId(0);
+    testtableEntity.setContent("ok");
+    Configuration configuration;
+    configuration = new Configuration();
+    configuration.configure();
+    SessionFactory factory = configuration.buildSessionFactory();
+    Session session = factory.openSession();
+    Transaction transaction = session.getTransaction();
+    transaction.begin();
+    session.save(testtableEntity);
+    transaction.commit();
+    session.close();
+}
+	</pre>
+        </my-menu>
+        <my-menu>
+            <my-menu-header>
+                <div>删除delete</div>
+            </my-menu-header>
+            <pre class="prettyprint">public static void delete() {
+    TesttableEntity testtableEntity = new TesttableEntity();
+    testtableEntity.setId(0);
+    testtableEntity.setContent("ok");
+    Configuration configuration;
+    configuration = new Configuration();
+    configuration.configure();
+    SessionFactory factory = configuration.buildSessionFactory();
+    Session session = factory.openSession();
+    Transaction transaction = session.getTransaction();
+    transaction.begin();
+    session.delete(testtableEntity);
+    transaction.commit();
+    session.close();
+}</pre>
+        </my-menu>
+    </my-menu>
+</my-menu>
+</body>
+</html>

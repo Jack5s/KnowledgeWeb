@@ -1,5 +1,3 @@
-@charset "ISO-8859-1";
-
 :root {
     --lightBlue: rgba(91, 155, 213, 1);
     --darkBlue: rgba(70, 120, 200, 1);
@@ -8,10 +6,48 @@
 }
 
 pre.prettyprint {
+    font-family: "monospace";
+    font-size: 12px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+pre {
+    font-family: "monospace";
+    font-size: 12px;
     border: none;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 xmp {
     display: inline;
+    font-family: "monospace";
+    font-size: 12px;
+    border: none;
+}
+
+div {
+    font-family: "Times New Roman";
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 15px;
+    color: #000000;
+    background-color: white;
+}
+
+table {
+    margin: 0 0px 0 0px;
+    /*width: 90%;*/
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 12px;
+    border-color: #cfcfcf;
 }

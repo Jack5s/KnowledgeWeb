@@ -4,17 +4,13 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="../CSS/common.css">
-<script type="text/javascript">
-	var pathName = window.document.location.pathname;
-	var projectName = pathName
-			.substring(1, pathName.substr(1).indexOf('/') + 1);
-	document
-			.write("<link rel='stylesheet' href='/"+projectName+"/CSS/common.css'></sc"+"ript>");
-	document
-			.write("<script language=javascript src='/"+projectName+"/JS/run_prettify.js'></sc"+"ript>");
-	document
-			.write("<script language=javascript src='/"+projectName+"/JS/jquery-3.3.1.js'></sc"+"ript>");
-</script>
+	<script type="text/javascript">
+		var pathName = window.document.location.pathname;
+		var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+		var scriptElement = document.createElement('script');
+		scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+		document.head.appendChild(scriptElement);
+	</script>
 <style type="text/css">
 #div {
 	position: absolute;
@@ -58,15 +54,15 @@
 </head>
 <body>
 <h1>Use transform Animation with jQuery</h1>
-<pre>It is not allow to use animation() in jQuery to change the value of transform. 
+<p>It is not allow to use animation() in jQuery to change the value of transform.
 The solution is to add and remove class of related animation. Also transition(CSS3) must be use in the animation.
 But you must be careful that all the CSS style related to animation shouldn't repeat in CSS.
-So I use .div1 and .div2 to show different CSS</pre>
+So I use .div1 and .div2 to show different CSS</p>
 <h2>HTML</h2>
-<pre>All you need is a div</pre>
+<p>All you need is a div</p>
 <pre class="prettyprint"><xmp><div id="div"></div></xmp></pre>
 <h2>CSS</h2>
-<pre>All CSS properties you need to change should be put into a isolated class</pre>
+<p>All CSS properties you need to change should be put into a isolated class</p>
 <pre class="prettyprint">#div {
 	position: absolute;
 	width: 100px;

@@ -1,93 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Knowledge Software</title>
-<link rel="stylesheet" href="../CSS/common.css">
-<link rel="stylesheet" href="../CSS/index.css">
-
-<script type="text/javascript" src="../JS/jquery-3.3.1.js"></script>
-<script type="text/javascript" src="../JS/d3.js"></script>
-<script type="text/javascript" src="../JS/index.js"></script>
-<script type="text/javascript" src="../JS/fullExtent.js"></script>
-<script type="text/javascript" src="../JS/headerJSON.js"></script>
-<script type="text/javascript" src="../JS/header.js"></script>
-<script type="text/javascript" src="../JS/leftJSON.js"></script>
-<script type="text/javascript" src="../JS/left.js"></script>
-<script type="text/javascript" src="../JS/search.js"></script>
-<script type="text/javascript" src="../JS/clock.js"></script>
+    <meta charset="ISO-8859-1">
+    <title>Knowledge Software</title>
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script type="text/javascript" src="../JS/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../JS/d3.js"></script>
+    <script type="text/javascript" src="../JS/index.js"></script>
+    <script type="text/javascript" src="../JS/fullExtent.js"></script>
+    <script type="text/javascript" src="../JS/headerJSON.js"></script>
+    <script type="text/javascript" src="../JS/header.js"></script>
+    <script type="text/javascript" src="../JS/leftJSON.js"></script>
+    <script type="text/javascript" src="../JS/left.js"></script>
+    <script type="text/javascript" src="../JS/search.js"></script>
+    <script type="text/javascript" src="../JS/clock.js"></script>
 </head>
 <body>
-	<div id="content">
-		<iframe id="contentIframe"> </iframe>
-		<div id="fullExtent">
-			<svg id="fullExtentSvg">
-				<g id="fullExtentSvgD" stroke-width="3" fill="rgb(255, 255, 255)"
-					stroke="rgba(255,255,255,1)" stroke-linecap="round">
-					<path d="M3,3 l9,0"></path>
-					<path d="M3,3 l11,11"></path>
-					<path d="M3,3 l0,9"></path>
-					
-					<path d="M37,3 l-9,0"></path>
-					<path d="M37,3 l-11,11"></path>
-					<path d="M37,3 l0,9"></path>
-					
-					<path d="M3,37 l9,0"></path>
-					<path d="M3,37 l11,-11"></path>
-					<path d="M3,37 l0,-9"></path>
-					
-					<path d="M37,37 l-9,0"></path>
-					<path d="M37,37 l-11,-11"></path>
-					<path d="M37,37 l0,-9"></path>
-				</g>
-			</svg>
-		</div>
-	</div>
-	<div id="header">
-		<div id="headerListBackground">
-			<div id="headerList"></div>
-		</div>
-		<svg id="headerSvg">
-			<g>
-			<path d="M75 10 l300 0 l30 15 l-30 15 L75 40 Z"
-				stroke="rgb(91, 155, 213)" stroke-width="2"
-				fill="rgb(255, 255, 255)" />
-			<path d="M420 10 l50 0 l30 15 l-30 15 l-50 0 l30 -15 Z"
-				stroke="rgb(91, 155, 213)" stroke-width="2"
-				fill="rgb(255, 255, 255)" />
-			<path d="M515 10 l50 0 l30 15 l-30 15 l-50 0 l30 -15 Z"
-				stroke="rgb(91, 155, 213)" stroke-width="2"
-				fill="rgb(255, 255, 255)" />
-			</g>
-		</svg>
-		<div>
-			<svg id="headerSvgCircle">
-			<g>
-				<circle cx="75" cy="75" r="70" stroke="rgb(91, 155, 213)"
-					stroke-width="5" fill="rgb(255, 255, 255)" />
-				<circle cx="75" cy="75" r="63" stroke="rgb(91, 155, 213)"
-					stroke-width="2" fill="rgb(255, 255, 255)" />
-			</g>
-		</svg>
-			<div id="headerImg"></div>
-		</div>
-		<div id="headerClock">
-			<svg id="headerClockSvg"></svg>
-			<div id="headerDateText"></div>
-			<div id="headerTimeText"></div>
-		</div>
-		<div id="headerSearch">
-			<input type="text" id="headerSearchTextArea"></input>
-			<div id="headerSearchList"></div>
-		</div>
+<div id="content">
+    <iframe id="contentIframe"></iframe>
+    <div id="fullExtent">
+        <svg id="fullExtentSvg">
+            <g id="fullExtentSvgD" stroke-width="3" fill="rgb(255, 255, 255)"
+               stroke="rgba(255,255,255,1)" stroke-linecap="round">
+                <path d="M3,3 l9,0"></path>
+                <path d="M3,3 l11,11"></path>
+                <path d="M3,3 l0,9"></path>
 
-	</div>
+                <path d="M37,3 l-9,0"></path>
+                <path d="M37,3 l-11,11"></path>
+                <path d="M37,3 l0,9"></path>
 
-	<div id="left">
-		<div id="leftTitle">Title</div>
-		<div id="leftList"></div>
-	</div>
+                <path d="M3,37 l9,0"></path>
+                <path d="M3,37 l11,-11"></path>
+                <path d="M3,37 l0,-9"></path>
 
-	<textarea id="test" style="display: none;"></textarea>
+                <path d="M37,37 l-9,0"></path>
+                <path d="M37,37 l-11,-11"></path>
+                <path d="M37,37 l0,-9"></path>
+            </g>
+        </svg>
+    </div>
+</div>
+<div id="header">
+    <div id="headerListBackground">
+        <div id="headerList"></div>
+    </div>
+    <svg id="headerSvg">
+        <g>
+            <path d="M75 10 l300 0 l30 15 l-30 15 L75 40 Z"
+                  stroke="rgb(91, 155, 213)" stroke-width="2"
+                  fill="rgb(255, 255, 255)"/>
+            <path d="M420 10 l50 0 l30 15 l-30 15 l-50 0 l30 -15 Z"
+                  stroke="rgb(91, 155, 213)" stroke-width="2"
+                  fill="rgb(255, 255, 255)"/>
+            <path d="M515 10 l50 0 l30 15 l-30 15 l-50 0 l30 -15 Z"
+                  stroke="rgb(91, 155, 213)" stroke-width="2"
+                  fill="rgb(255, 255, 255)"/>
+        </g>
+    </svg>
+    <div>
+        <svg id="headerSvgCircle">
+            <g>
+                <circle cx="75" cy="75" r="70" stroke="rgb(91, 155, 213)"
+                        stroke-width="5" fill="rgb(255, 255, 255)"/>
+                <circle cx="75" cy="75" r="63" stroke="rgb(91, 155, 213)"
+                        stroke-width="2" fill="rgb(255, 255, 255)"/>
+            </g>
+        </svg>
+        <div id="headerImg"></div>
+    </div>
+    <div id="headerClock">
+        <svg id="headerClockSvg"></svg>
+        <div id="headerDateText"></div>
+        <div id="headerTimeText"></div>
+    </div>
+    <div id="headerSearch">
+        <input type="text" id="headerSearchTextArea"></input>
+        <div id="headerSearchList"></div>
+    </div>
+
+</div>
+
+<div id="left">
+    <div id="leftTitle">Title</div>
+    <div id="leftList"></div>
+</div>
+
+<div id="test" style="display: block;"></div>
 </body>
 </html>

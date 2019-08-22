@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
+    </script>
+</head>
+<body>
+<h1>Spring Boot</h1>
+<h2>简介</h2>
+<p>Spring Boot提供了一个简易的方式用于MVC框架的搭建，是对于Servlet的一个扩展，在其基础上增加了映射的一些参数</p>
+官网：<a href="https://spring.io/projects/spring-boot">https://spring.io/projects/spring-boot</a></p>
+<a href="https://spring.io/projects/spring-boot">
+    <img imgName="springBoot">
+</a>
+
+<my-menu expandState="collapse">
+    <my-menu-header>
+        <div>Spting Boot配置</div>
+    </my-menu-header>
+    <p>Spring Boot需要进行一系列配置，通常使用Maven进行依赖的添加。<a href="../maven.html">关于Maven</a></p>
+    <my-menu expandState="expand">
+        <my-menu-header>
+            <div>Maven配置</div>
+        </my-menu-header>
+        <pre class="prettyprint"><xmp><dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.jayway.jsonpath</groupId>
+        <artifactId>json-path</artifactId>
+        <scope>test</scope>
+    </dependency>
+</dependencies></xmp></pre>
+    </my-menu>
+
+    <my-menu expandState="expand">
+        <my-menu-header>
+            <div>Application配置</div>
+        </my-menu-header>
+        <p>Spring Boot必须有一个启动类，在main/java中新建包，并在包中新建类Application：</p>
+        <pre class="prettyprint">@SpringBootApplication
+public class Application extends SpringBootServletInitializer {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}
+</pre>
+    </my-menu>
+    <my-menu expandState="expand">
+        <my-menu-header>
+            <div>Controller配置</div>
+        </my-menu-header>
+        <my-menu expandState="expand">
+            <p>与Application同一package（或子package）中新建类：</p>
+            <pre class="prettyprint">@RestController
+public class TestController {
+    @RequestMapping(value = "/checkUser")
+    public String checkUser(@RequestParam(name = "user",value = "user",required = false)String userName){
+        return  "ok";
+    }
+}</pre>
+            <p>@RequestMapping中value是网络地址映射，与servlet中@WebServlet类似</p>
+            <p>@RequestParam表示输入参数</p>
+        </my-menu>
+    </my-menu>
+</my-menu>
+<my-menu expandState="collapse">
+    <my-menu-header>
+        <div>发布到Tomcat</div>
+    </my-menu-header>
+    <p>Spring Boot有内置Tomcat服务器，这就意味着器无法与其它的web程序同时发布到Tomcat上，但可以通过一定修改使其发布在Tomcat上：</p>
+    <my-menu expandState="expand">
+        <my-menu-header>
+            <div>Maven配置</div>
+        </my-menu-header>
+        <p>添加sevlet依赖</p>
+        <pre class="prettyprint"><xmp><dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-servlet-api</artifactId>
+    <version>8.0.36</version>
+    <scope>provided</scope>
+</dependency></xmp></pre>
+    </my-menu>
+    <my-menu expandState="expand">
+        <my-menu-header>
+            <div>Application更改</div>
+        </my-menu-header>
+        <p>Spring Boot通过Application类启动，因此可以通过改写Application类来更改启动设置：</p>
+        <pre class="prettyprint"><xmp>public class Application extends SpringBootServletInitializer {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}        </xmp></pre>
+    </my-menu>
+</my-menu>
+</my-menu>
+
+</body>
+
+</html>

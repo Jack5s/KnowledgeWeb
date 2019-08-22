@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/../JavascriptMenu" />
-    <file type="web" url="file://$PROJECT_DIR$/../SpringSample" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../Scraper/pom.xml" />
         <option value="$PROJECT_DIR$/../SpringSample/pom.xml" />
-        <option value="$PROJECT_DIR$/../JavascriptTest/pom.xml" />
-        <option value="$PROJECT_DIR$/../JavascriptMenu/pom.xml" />
+        <option value="$PROJECT_DIR$/../HibernateSample/pom.xml" />
+        <option value="$PROJECT_DIR$/../StrutsSample/pom.xml" />
       </list>
     </option>
   </component>

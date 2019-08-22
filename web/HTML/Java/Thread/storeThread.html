@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store Thread</title>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
+    </script>
+</head>
+<body>
+<h1>Store Thread</h1>
+<p>下面这个例子展示了Java中Thread的使用，模拟顾客抢购商品</p>
+<my-menu>
+    <my-menu-header>Main Class</my-menu-header>
+    <pre class="prettyprint">public class BuyGoods {
+	public static Store store = new Store();
+	public static void main(String[] args) {
+		store.open();
+		int i;
+		for (i = 1; i <= 2; i++) {
+			new Customer(String.valueOf(i)).buyGoods(store);
+		}
+	}
+}</pre>
+</my-menu>
+<my-menu>
+    <my-menu-header>Customer Class</my-menu-header>
+    <p></p>
+    <pre class="prettyprint">public class Customer {
+	public String name;
+	public int goodsCount;
+
+	public Customer(String name) {
+		this.name = name;
+	}
+
+	public void buyGoods(Store store) {
+		goodsCount = 0;
+		CustomerBuyGoodsThread customerThread = new CustomerBuyGoodsThread(store);
+		customerThread.start();
+	}
+
+	class CustomerBuyGoodsThread extends Thread {
+		private Store store;
+
+		CustomerBuyGoodsThread(Store store) {
+			this.store = store;
+		}
+
+		@Override
+		public void run() {
+			synchronized (store) {
+				try {
+					while (store.goodsCount > 0) {
+						store.goodsCount--;
+						goodsCount++;
+						store.notifyAll();//必须先notifyAll，然后wait，否则可能会所有线程都在等待
+						store.wait();
+					}
+					store.notifyAll();//结束线程之前也要notifyAll,通知其它线程资源已经被释放了
+				} catch (Exception ex) {
+					System.err.println(ex.getMessage());
+				} finally {
+					System.out.println(name + ": " + String.valueOf(goodCount));
+				}
+			}
+		}
+	}
+}</pre>
+</my-menu>
+<my-menu>
+    <my-menu-header>Store Class</my-menu-header>
+    <pre class="prettyprint">public class Store {
+	public int goodsCount = 10;
+
+	public void open() {
+		StoreOpenThread storeOpenThread = new StoreOpenThread();
+		storeOpenThread.start();
+	}
+
+	//check goods has been sell
+	class StoreOpenThread extends Thread {
+		@Override
+		public void run() {
+			try {
+				while (goodsCount > 0) {
+					Thread.sleep(1000);//睡一会避免浪费资源
+				}
+				System.out.println("ok");
+			} catch (Exception ex) {
+				System.err.println(ex.getMessage());
+			} finally {
+			}
+
+		}
+	}
+}</pre>
+</my-menu>
+<p>最后输出：</p>
+<pre class="prettyprint">1: 5
+2: 5
+ok</pre>
+<p>这个程序里只有两个线程，一个线程notifyAll()之后wait，那么必然是另一个线程得到相关的资源，所以结果是固定的</p>
+<p>但是如果有3个及以上的线程，那么结果就会是随机数</p>
+</body>
+</html>

@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="ISO-8859-1">
-    <title>Insert title here</title>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
     <script type="text/javascript">
         var pathName = window.document.location.pathname;
-        var projectName = pathName
-            .substring(1, pathName.substr(1).indexOf('/') + 1);
-        document
-            .write("<link rel='stylesheet' href='/" + projectName + "/CSS/common.css'></sc" + "ript>");
-        document
-            .write("<script language=javascript src='/" + projectName + "/JS/run_prettify.js'></sc" + "ript>");
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
     </script>
 </head>
 <body>
@@ -21,12 +19,10 @@
 Then you need to change you build path and add the jar package
 </pre>
 <h2>Step 2: Connect</h2>
-<pre>use following code to connect with your database:</pre>
-<pre class="prettyprint">
-<code class="language-java">String url = "jdbc:postgresql://hostName/dataBaseName";
+<p>use following code to connect with your database:</p>
+<pre class="prettyprint">String url = "jdbc:postgresql://hostName/dataBaseName";
 String userName = "LiJingwei";
 String password = "12345";
-Connection connection = DriverManager.getConnection(url, userName, password);</code>
-</pre>
+Connection connection = DriverManager.getConnection(url, userName, password);</pre>
 </body>
 </html>

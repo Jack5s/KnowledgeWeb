@@ -1,5 +1,10 @@
 var keywordArray = [];
 function searchInitialize(){
+	for (var i = 0; i < dataStrArray.length; i++) {
+		var dataStr = dataStrArray[i];
+		var data = window[dataStr];
+		getKeywords(data, dataStr);
+	}
 	$("#headerSearchList").hide();
 	$("#headerSearchTextArea").keyup(
 			function() {
@@ -26,7 +31,7 @@ function searchInitialize(){
 									$(this).text());
 							var keyword = $(this).text().toLowerCase();
 							loadLeft(window[$(this).attr("dataStr")],
-									"Search Result");
+								dataStr.substr(4));
 							var itemArray = $("#leftList").children();
 							for (var i = 0; i < itemArray.length; i++) {
 								var leftItem = $(itemArray[i]);
@@ -41,11 +46,7 @@ function searchInitialize(){
 		$("#headerSearchList").hide();
 	})
 
-	for (var i = 0; i < dataStrArray.length; i++) {
-		var dataStr = dataStrArray[i];
-		var data = window[dataStr];
-		getKeywords(data, dataStr);
-	}
+
 }
 function getKeywords(data, dataStr) {
 	for (var i = 0; i < data.length; i++) {
@@ -65,13 +66,22 @@ function findKeyword(leftItem, keyword) {
 	var textItem = $(leftItem.children()[0]);
 	if (textItem.attr("longTitle").toLowerCase() == keyword) {
 		$("#contentIframe").attr("src", textItem.attr("url"));
+		// if (selectedItem != null) {
+		// 	selectedItem.css("background-color", "var(--lightBlue)");
+		// 	selectedItem.css("color", "white");
+		// }
+		// selectedItem = textItem;
+		// selectedItem.css("background-color", "var(--selectedColor)");
+		// selectedItem.css("color", "black");
 		if (selectedItem != null) {
 			selectedItem.css("background-color", "var(--lightBlue)");
-			selectedItem.css("color", "white");
+			$(selectedItem.children()[0]).css("fill", "#ffffff");
+			$(selectedItem.children()[1]).css("color", "#ffffff");
 		}
-		selectedItem = textItem;
+		selectedItem = leftItem.children(".leftListItemHeader");
 		selectedItem.css("background-color", "var(--selectedColor)");
-		selectedItem.css("color", "black");
+		$(selectedItem.children()[0]).css("fill", "#000000");
+		$(selectedItem.children()[1]).css("color", "#000000");
 		expandItem(leftItem);
 		return;
 	} else {

@@ -8,13 +8,25 @@ function loadLeft(data, title) {
 }
 
 function addLeftItem(parentDivItem, dataItem, level) {
-    var itemDivStr = "<div class='leftListItem1'><div class='leftListItem"
-        + level + "Text' url='" + dataItem.url + "' longTitle='"
-        + dataItem.longTitle + "'>" + dataItem.title + "</div></div>";
-    parentDivItem.append(itemDivStr);
+    var height = 50;
+    var svgStr;
+    if (dataItem.subItem.length > 0) {
+        svgStr = "<svg style='height: " + height + "px;width: 15px;fill:#ffffff;stroke-width:0'><g>" +
+            "<path d='M5," + (height - 10) / 2 + " l5,5 l-5,5Z' /></g></svg>";
+    } else {
+        svgStr = "<svg style='height: " + height + "px;width: 15px;fill:#ffffff;stroke-width:0'></svg>";
+    }
+    var divItemStr = "<div class='leftListItem'><div class='leftListItemHeader' url='" + dataItem.url + "' longTitle='"
+        + dataItem.longTitle + "'>" + svgStr + "<div class='leftListItemText' url='" + dataItem.url + "' longTitle='"
+        + dataItem.longTitle + "'>" + dataItem.title + "</div></div></div>";
+
+    parentDivItem.append(divItemStr);
     var divItem = $(parentDivItem.children()[parentDivItem.children().length - 1]);
-    var divItemText = $(divItem.children()[0]);
-    divItemText.mouseenter(function () {
+    var divHeaderItem = $(divItem.children()[0]);
+    var svgItem = $(divHeaderItem.children()[0]);
+    var divHeaderTextItem = $(divHeaderItem.children()[1]);
+    divHeaderItem.css("paddingLeft", level * 10 - 5 + "px")
+    divHeaderItem.mouseenter(function () {
         if (selectedItem != null) {
             if ($(this).text() != selectedItem.text()) {
                 $(this).css("background-color", "var(--mouseoverColor)");
@@ -22,9 +34,8 @@ function addLeftItem(parentDivItem, dataItem, level) {
         } else {
             $(this).css("background-color", "var(--mouseoverColor)");
         }
-
     });
-    divItemText.mouseleave(function () {
+    divHeaderItem.mouseleave(function () {
         if (selectedItem != null) {
             if ($(this).text() != selectedItem.text()) {
                 $(this).css("background-color", "var(--lightBlue)");
@@ -34,19 +45,36 @@ function addLeftItem(parentDivItem, dataItem, level) {
         }
     });
 
-    divItemText.click(function () {
+    divHeaderItem.click(function () {
         $("#contentIframe").attr("src", $(this).attr("url"));
         $("#test").text($(this).attr("url"));
         if (selectedItem != null) {
             selectedItem.css("background-color", "var(--lightBlue)");
-            selectedItem.css("color", "white");
+            $(selectedItem.children()[0]).css("fill", "#ffffff");
+            $(selectedItem.children()[1]).css("color", "#ffffff");
+
         }
         selectedItem = $(this);
         selectedItem.css("background-color", "var(--selectedColor)");
-        selectedItem.css("color", "black");
-        divItem.children().show();
+        $(selectedItem.children()[0]).css("fill", "#000000");
+        $(selectedItem.children()[1]).css("color", "#000000");
+        // divItem.children().show();show
     });
-
+    divHeaderItem.click(function () {
+        var childItem = $(this).siblings();
+        var displayStr = childItem.css("display");
+        var height = 50;
+        var d;
+        if (displayStr != "none") {
+            displayStr = childItem.css("display", "none");
+            d = "M5," + (height - 10) / 2 + " l5,5 l-5,5Z";
+        } else {
+            displayStr = childItem.css("display", "block");
+            d = "M5," + height / 2 + " l10,0 l-5,5Z";
+        }
+        var path = svgItem.children("g").children();
+        path.attr("d", d);
+    })
     if (level != 1) {
         divItem.hide();
     }

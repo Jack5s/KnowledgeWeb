@@ -3,19 +3,17 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
-<script type="text/javascript">
-	var pathName = window.document.location.pathname;
-	var projectName = pathName
-			.substring(1, pathName.substr(1).indexOf('/') + 1);
-	document
-			.write("<link rel='stylesheet' href='/"+projectName+"/CSS/common.css'></sc"+"ript>");
-	document
-			.write("<script language=javascript src='/"+projectName+"/JS/run_prettify.js'></sc"+"ript>");
-</script>
+    <script type="text/javascript">
+        var pathName = window.document.location.pathname;
+        var webRoot = "/" + pathName.substr(1, pathName.indexOf("/HTML/") - 1);
+        var scriptElement = document.createElement('script');
+        scriptElement.src = webRoot + "/JS/loadJSandCSS.js";
+        document.head.appendChild(scriptElement);
+    </script>
 </head>
 <body>
 <h1>Prevent PostgreSQL Injection</h1>
-<pre>Use parameter to prevent injection</pre>
+<p>Use parameter to prevent injection</p>
 <pre class="prettyprint">String insertStr = "insert into schemaName.\"tableName\" VALUES (?,?,?,?,?)";
 PreparedStatement preparedStatement = ParaSetting.connection.prepareStatement(insertStr);
 preparedStatement.setString(1, id);
