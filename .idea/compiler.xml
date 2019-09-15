@@ -7,20 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="StrutsSample" />
-        <module name="SpringSample" />
+        <module name="SpringBootSample" />
         <module name="HibernateSample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HibernateSample" target="1.5" />
       <module name="Scraper" target="1.8" />
-      <module name="SpringSample" target="1.8" />
+      <module name="SpringBootSample" target="1.8" />
       <module name="StrutsSample" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SpringSample" options="-parameters" />
+      <module name="SpringBootSample" options="-parameters" />
     </option>
   </component>
 </project>

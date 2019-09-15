@@ -7,7 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../JavascriptTest/JavascriptTest.iml" filepath="$PROJECT_DIR$/../JavascriptTest/JavascriptTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/KnowledgeWeb.iml" filepath="$PROJECT_DIR$/KnowledgeWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ServletSample/ServletSample.iml" filepath="$PROJECT_DIR$/../ServletSample/ServletSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SpringSample/SpringSample.iml" filepath="$PROJECT_DIR$/../SpringSample/SpringSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringBootSample/SpringBootSample.iml" filepath="$PROJECT_DIR$/../SpringBootSample/SpringBootSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/../StrutsSample/StrutsSample.iml" filepath="$PROJECT_DIR$/../StrutsSample/StrutsSample.iml" />
     </modules>
   </component>
