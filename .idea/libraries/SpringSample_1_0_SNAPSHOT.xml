@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SpringSample-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SpringBootSample/target/SpringSample-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
