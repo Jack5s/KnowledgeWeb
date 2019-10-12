@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="JavascriptMenu:war exploded">
-    <output-path>$PROJECT_DIR$/../JavascriptMenu/out/artifacts/JavascriptMenu_war_exploded</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="JavascriptMenu/web/Web" />
-    </root>
-  </artifact>
-</component>

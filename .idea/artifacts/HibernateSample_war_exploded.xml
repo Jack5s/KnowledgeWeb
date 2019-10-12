@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="HibernateSample:war exploded">
-    <output-path>$PROJECT_DIR$/../HibernateSample/out/artifacts/HibernateSample_war_exploded</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="HibernateSample/web/Web" />
-    </root>
-  </artifact>
-</component>
