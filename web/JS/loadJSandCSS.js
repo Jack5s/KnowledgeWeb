@@ -7,7 +7,7 @@ var scriptElement = document.createElement('script');
 scriptElement.src = webRoot + "/JS/run_prettify.js";
 document.head.appendChild(scriptElement);
 
-loadScript(webRoot + "/JS/jquery-3.3.1.js", function () {
+loadScript(webRoot + "/JS/jquery.js", function () {
     var scriptElement = document.createElement('script');
     scriptElement.src = webRoot + "/JS/imgLoad.js";
     document.head.appendChild(scriptElement);
